@@ -74,6 +74,14 @@ const crmFeatures = [
   },
 ];
 
+const popularTags = [
+  { name: '#工程師', count: 88, growth: '+12' },
+  { name: '#設計師', count: 42, growth: '+8' },
+  { name: '#創業家', count: 33, growth: '+5' },
+  { name: '#投資人', count: 21, growth: '+3' },
+  { name: '#台大校友', count: 15, growth: '+2' },
+];
+
 const advancedFeatures = [
   {
     icon: <MapPin className="w-8 h-8 text-yellow-500 mb-4" />,
@@ -230,6 +238,89 @@ export default function App() {
                 </p>
               </motion.div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Popular Tags Showcase */}
+      <section className="py-20 bg-gradient-to-b from-yellow-50 via-white to-yellow-50 border-t border-yellow-100">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
+              最活躍的人脈標籤
+            </h2>
+            <p className="text-neutral-600 text-lg">
+              加入數千名用戶，探索並連接擁有相同標籤的人脈。發掘你的專業社群與興趣圈。
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
+            {popularTags.map((tag, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.08 }}
+                className="group relative"
+              >
+                {/* Background glow effect */}
+                <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-yellow-300 rounded-2xl opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur"></div>
+
+                {/* Card */}
+                <div className="relative bg-white border-2 border-yellow-200 rounded-2xl p-6 hover:border-yellow-400 transition-all duration-300 hover:shadow-lg hover:shadow-yellow-200/50 cursor-pointer">
+                  {/* Rank Badge */}
+                  <div className="absolute -top-3 -left-3 w-8 h-8 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg">
+                    {index + 1}
+                  </div>
+
+                  {/* Tag Name */}
+                  <h3 className="text-lg font-bold text-neutral-900 mb-3 text-yellow-600 break-all pr-2">
+                    {tag.name}
+                  </h3>
+
+                  {/* Stats */}
+                  <div className="space-y-3">
+                    {/* Count with bar */}
+                    <div>
+                      <div className="flex items-center justify-between mb-2">
+                        <span className="text-sm text-neutral-600">使用人數</span>
+                        <span className="font-bold text-neutral-900">{tag.count}</span>
+                      </div>
+                      <div className="h-2 bg-neutral-100 rounded-full overflow-hidden">
+                        <motion.div
+                          initial={{ width: 0 }}
+                          whileInView={{ width: `${(tag.count / 88) * 100}%` }}
+                          viewport={{ once: true }}
+                          transition={{ duration: 0.6, delay: index * 0.08 + 0.2 }}
+                          className="h-full bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-full"
+                        />
+                      </div>
+                    </div>
+
+                    {/* Growth indicator */}
+                    <div className="flex items-center gap-2 text-sm">
+                      <div className="w-1.5 h-1.5 rounded-full bg-green-400"></div>
+                      <span className="text-green-600 font-medium">{tag.growth} 本週</span>
+                    </div>
+                  </div>
+
+                  {/* Hover CTA */}
+                  <div className="mt-4 pt-4 border-t border-yellow-100 flex items-center gap-2 text-yellow-600 font-medium text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    探索標籤
+                    <ChevronRight className="w-4 h-4" />
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+
+          {/* View All CTA */}
+          <div className="mt-12 text-center">
+            <button className="inline-flex items-center gap-2 px-6 py-3 bg-neutral-900 text-white rounded-full font-medium hover:bg-neutral-800 transition-colors group">
+              查看全部標籤
+              <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            </button>
           </div>
         </div>
       </section>
