@@ -29,9 +29,9 @@ function FaqItem({ question, answer }: { question: string; answer: string }) {
 
 const faqs = [
   {
-    question: "Pikt.ag 是什麼？",
+    question: "PikTag 是什麼？",
     answer:
-      "Pikt.ag 是一款行動社交 CRM 應用程式，幫助您透過語意標籤、QR Code 和社群連結來管理人脈。無論是商務交流還是日常社交，都能輕鬆記住每一位聯絡人。",
+      "PikTag 是一款行動社交 CRM 應用程式，幫助您透過語意標籤、QR Code 和社群連結來管理人脈。無論是商務交流還是日常社交，都能輕鬆記住每一位聯絡人。",
   },
   {
     question: "如何使用語意標籤管理聯絡人？",
@@ -44,9 +44,9 @@ const faqs = [
       "每位用戶都有專屬的 QR Code 名片。對方掃描後即可查看您的個人資料與社群連結，也能直接將您加入聯絡人，省去手動輸入的麻煩。",
   },
   {
-    question: "Pikt.ag 是免費的嗎？",
+    question: "PikTag 是免費的嗎？",
     answer:
-      "Pikt.ag 提供免費基本方案，包含核心的聯絡人管理與標籤功能。進階功能如批量匯入、數據分析等則包含在付費方案中，詳情請參閱我們的方案頁面。",
+      "PikTag 提供免費基本方案，包含核心的聯絡人管理與標籤功能。進階功能如批量匯入、數據分析等則包含在付費方案中，詳情請參閱我們的方案頁面。",
   },
 ];
 
@@ -57,8 +57,8 @@ export default function Contact() {
       <header className="border-b border-neutral-200 bg-white">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center gap-3">
           <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-            <img src="/logo.png" alt="Pikt.ag logo" className="h-8 w-8 rounded" />
-            <span className="text-xl font-bold text-neutral-900">Pikt.ag</span>
+            <img src="/logo.png" alt="PikTag logo" className="h-8 w-8 rounded" />
+            <span className="text-xl font-bold text-neutral-900">PikTag</span>
           </Link>
         </div>
       </header>
@@ -69,7 +69,7 @@ export default function Contact() {
         <section className="mb-12">
           <h1 className="text-3xl font-bold text-neutral-900 mb-3">聯絡我們</h1>
           <p className="text-neutral-600 leading-relaxed max-w-2xl">
-            感謝您對 Pikt.ag 的關注！如果您有任何問題、建議或合作提案，歡迎透過以下方式與我們聯繫，我們會盡快回覆您。
+            感謝您對 PikTag 的關注！如果您有任何問題、建議或合作提案，歡迎透過以下方式與我們聯繫，我們會盡快回覆您。
           </p>
         </section>
 
@@ -140,7 +140,7 @@ export default function Contact() {
       {/* Footer */}
       <footer className="border-t border-neutral-200 bg-white">
         <div className="max-w-4xl mx-auto px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-neutral-500">
-          <span>&copy; {new Date().getFullYear()} Pikt.ag</span>
+          <span>&copy; {new Date().getFullYear()} PikTag</span>
           <nav className="flex items-center gap-6">
             <Link to="/privacy" className="hover:text-neutral-800 transition-colors">
               隱私權政策

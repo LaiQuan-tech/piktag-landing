@@ -8,7 +8,7 @@ export default function Terms() {
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
             <img src="/logo.png" alt="PikTag Logo" className="w-8 h-8 rounded-lg" />
-            <span className="font-bold text-xl tracking-tight">Pikt.ag</span>
+            <span className="font-bold text-xl tracking-tight">PikTag</span>
           </Link>
         </div>
       </nav>
@@ -24,7 +24,7 @@ export default function Terms() {
             <section>
               <h2 className="text-2xl font-bold text-neutral-900 mb-4">一、服務說明</h2>
               <p>
-                Pikt.ag（以下簡稱「本服務」）是由 PikTag 團隊開發與營運的行動社交 CRM 應用程式。本服務提供語意標籤管理、QR Code 名片交換、Link Bio 個人頁面、社群連結管理、通訊錄同步、智慧 CRM 提醒等功能，旨在協助用戶有效管理與維繫人脈關係。
+                PikTag（以下簡稱「本服務」）是由 PikTag 團隊開發與營運的行動社交 CRM 應用程式。本服務提供語意標籤管理、QR Code 名片交換、Link Bio 個人頁面、社群連結管理、通訊錄同步、智慧 CRM 提醒等功能，旨在協助用戶有效管理與維繫人脈關係。
               </p>
               <p className="mt-3">
                 當您下載、安裝、註冊或使用本服務時，即表示您已閱讀、理解並同意遵守本服務條款。若您不同意本條款之任何內容，請勿使用本服務。
@@ -68,7 +68,7 @@ export default function Terms() {
                 本服務及其所有內容（包括但不限於軟體、設計、文字、圖形、介面、標誌及商標）之智慧財產權均歸 PikTag 團隊或其授權者所有。未經事先書面許可，您不得複製、修改、散布、銷售或出租本服務之任何部分。
               </p>
               <p className="mt-3">
-                「PikTag」、「Pikt.ag」名稱及相關標誌為本服務之商標，未經授權不得使用。
+                「PikTag」、「PikTag」名稱及相關標誌為本服務之商標，未經授權不得使用。
               </p>
             </section>
 
@@ -164,10 +164,10 @@ export default function Terms() {
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
           <Link to="/" className="flex items-center gap-2">
             <img src="/logo.png" alt="PikTag Logo" className="w-6 h-6 rounded-md" />
-            <span className="font-bold text-lg tracking-tight">Pikt.ag</span>
+            <span className="font-bold text-lg tracking-tight">PikTag</span>
           </Link>
           <div className="text-sm text-neutral-500">
-            &copy; {new Date().getFullYear()} Pikt.ag. All rights reserved.
+            &copy; {new Date().getFullYear()} PikTag. All rights reserved.
           </div>
           <div className="flex gap-6 text-sm font-medium text-neutral-600">
             <Link to="/privacy" className="hover:text-neutral-900 transition-colors">隱私權政策</Link>

@@ -110,7 +110,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <img src="/logo.png" alt="PikTag Logo" className="w-8 h-8 rounded-lg" />
-            <span className="font-bold text-xl tracking-tight">Pikt.ag</span>
+            <span className="font-bold text-xl tracking-tight">PikTag</span>
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-neutral-600">
             <a href="#features" className="hover:text-neutral-900 transition-colors">核心功能</a>
@@ -146,7 +146,7 @@ export default function App() {
               </span>
             </h1>
             <p className="text-lg text-neutral-600 mb-8 leading-relaxed">
-              告別傳統通訊錄。Pikt.ag 透過六大語意標籤、QR Code 名片交換與智慧 CRM 提醒，幫助你精準分類、探索並維繫每一段珍貴的社交關係。支援 15 國語言。
+              告別傳統通訊錄。PikTag 透過六大語意標籤、QR Code 名片交換與智慧 CRM 提醒，幫助你精準分類、探索並維繫每一段珍貴的社交關係。支援 15 國語言。
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="flex items-center justify-center gap-2 bg-neutral-900 text-white px-8 py-4 rounded-2xl font-medium hover:bg-neutral-800 transition-all hover:scale-[1.02] active:scale-[0.98]">
@@ -178,7 +178,7 @@ export default function App() {
               {/* App Header */}
               <div className="pt-12 pb-4 px-6 bg-yellow-400 text-neutral-900">
                 <div className="flex items-center justify-between mb-6">
-                  <div className="font-bold text-xl">Pikt.ag</div>
+                  <div className="font-bold text-xl">PikTag</div>
                   <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
                     <Search className="w-4 h-4" />
                   </div>
@@ -215,7 +215,7 @@ export default function App() {
           <div className="text-center max-w-2xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">基礎功能，強大無比</h2>
             <p className="text-neutral-600 text-lg">
-              取代傳統通訊錄，Pikt.ag 以語意標籤為核心，結合 Link Bio、QR Code 與隱私分級，讓人脈管理變得精準又直覺。
+              取代傳統通訊錄，PikTag 以語意標籤為核心，結合 Link Bio、QR Code 與隱私分級，讓人脈管理變得精準又直覺。
             </p>
           </div>
           
@@ -337,7 +337,7 @@ export default function App() {
                 智慧 CRM 與黏性功能
               </h2>
               <p className="text-neutral-400 text-lg mb-10 leading-relaxed">
-                不只是儲存聯絡人，Pikt.ag 主動幫你維繫關係。透過生日提醒、社交統計與智慧通知，讓你在對的時間，與對的人產生連結。
+                不只是儲存聯絡人，PikTag 主動幫你維繫關係。透過生日提醒、社交統計與智慧通知，讓你在對的時間，與對的人產生連結。
               </p>
               
               <div className="space-y-6">
@@ -445,7 +445,7 @@ export default function App() {
             準備好升級你的人脈網絡了嗎？
           </h2>
           <p className="text-xl text-neutral-600 mb-10">
-            Pikt.ag 即將登陸 iOS 與 Android 平台。
+            PikTag 即將登陸 iOS 與 Android 平台。
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="flex items-center justify-center gap-2 bg-neutral-900 text-white px-8 py-4 rounded-2xl font-medium hover:bg-neutral-800 transition-all hover:scale-[1.02] active:scale-[0.98]">
@@ -471,10 +471,10 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
             <img src="/logo.png" alt="PikTag Logo" className="w-6 h-6 rounded-md" />
-            <span className="font-bold text-lg tracking-tight">Pikt.ag</span>
+            <span className="font-bold text-lg tracking-tight">PikTag</span>
           </div>
           <div className="text-sm text-neutral-500">
-            &copy; {new Date().getFullYear()} Pikt.ag. All rights reserved.
+            &copy; {new Date().getFullYear()} PikTag. All rights reserved.
           </div>
           <div className="flex gap-6 text-sm font-medium text-neutral-600">
             <Link to="/privacy" className="hover:text-neutral-900 transition-colors">隱私權政策</Link>
