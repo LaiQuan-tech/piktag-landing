@@ -108,9 +108,7 @@ export default function App() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-neutral-200/50">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-yellow-400 rounded-lg flex items-center justify-center font-bold text-lg">
-              P
-            </div>
+            <img src="/logo.jpg" alt="PikTag Logo" className="w-8 h-8 rounded-lg" />
             <span className="font-bold text-xl tracking-tight">Pikt.ag</span>
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-neutral-600">
@@ -471,9 +469,7 @@ export default function App() {
       <footer className="bg-neutral-50 py-12 border-t border-neutral-200">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
-            <div className="w-6 h-6 bg-yellow-400 rounded-md flex items-center justify-center font-bold text-sm">
-              P
-            </div>
+            <img src="/logo.jpg" alt="PikTag Logo" className="w-6 h-6 rounded-md" />
             <span className="font-bold text-lg tracking-tight">Pikt.ag</span>
           </div>
           <div className="text-sm text-neutral-500">
