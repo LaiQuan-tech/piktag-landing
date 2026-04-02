@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import {
   Tags,
@@ -476,9 +477,9 @@ export default function App() {
             &copy; {new Date().getFullYear()} Pikt.ag. All rights reserved.
           </div>
           <div className="flex gap-6 text-sm font-medium text-neutral-600">
-            <a href="#" className="hover:text-neutral-900 transition-colors">隱私權政策</a>
-            <a href="#" className="hover:text-neutral-900 transition-colors">服務條款</a>
-            <a href="#" className="hover:text-neutral-900 transition-colors">聯絡我們</a>
+            <Link to="/privacy" className="hover:text-neutral-900 transition-colors">隱私權政策</Link>
+            <Link to="/terms" className="hover:text-neutral-900 transition-colors">服務條款</Link>
+            <Link to="/contact" className="hover:text-neutral-900 transition-colors">聯絡我們</Link>
           </div>
         </div>
       </footer>
