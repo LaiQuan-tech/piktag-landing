@@ -8,7 +8,7 @@ export default function PrivacyPolicy() {
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
             <img src="/logo.png" alt="PikTag Logo" className="w-8 h-8 rounded-lg" />
-            <span className="font-bold text-xl tracking-tight">Pikt.ag</span>
+            <span className="font-bold text-xl tracking-tight">PikTag</span>
           </Link>
         </div>
       </nav>
@@ -24,7 +24,7 @@ export default function PrivacyPolicy() {
           <div className="prose prose-neutral max-w-none space-y-10">
             {/* Intro */}
             <p className="text-lg text-neutral-600 leading-relaxed">
-              歡迎使用 PikTag（Pikt.ag）。我們非常重視您的隱私權。本隱私權政策說明我們如何收集、使用、儲存及保護您在使用 PikTag 行動應用程式及相關服務時所提供的個人資料。使用本服務即表示您同意本政策所述之資料處理方式。
+              歡迎使用 PikTag（PikTag）。我們非常重視您的隱私權。本隱私權政策說明我們如何收集、使用、儲存及保護您在使用 PikTag 行動應用程式及相關服務時所提供的個人資料。使用本服務即表示您同意本政策所述之資料處理方式。
             </p>
 
             {/* 資料收集 */}
@@ -204,7 +204,7 @@ export default function PrivacyPolicy() {
               <div className="bg-white rounded-2xl border border-neutral-200 p-6">
                 <ul className="space-y-2 text-neutral-600">
                   <li>
-                    <strong>應用程式名稱：</strong>PikTag（Pikt.ag）
+                    <strong>應用程式名稱：</strong>PikTag（PikTag）
                   </li>
                   <li>
                     <strong>電子郵件：</strong>{' '}
@@ -238,10 +238,10 @@ export default function PrivacyPolicy() {
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
           <Link to="/" className="flex items-center gap-2">
             <img src="/logo.png" alt="PikTag Logo" className="w-6 h-6 rounded-md" />
-            <span className="font-bold text-lg tracking-tight">Pikt.ag</span>
+            <span className="font-bold text-lg tracking-tight">PikTag</span>
           </Link>
           <div className="text-sm text-neutral-500">
-            &copy; {new Date().getFullYear()} Pikt.ag. All rights reserved.
+            &copy; {new Date().getFullYear()} PikTag. All rights reserved.
           </div>
           <div className="flex gap-6 text-sm font-medium text-neutral-600">
             <Link to="/privacy" className="hover:text-neutral-900 transition-colors">
