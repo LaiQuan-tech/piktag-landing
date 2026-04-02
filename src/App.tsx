@@ -3,74 +3,75 @@ import {
   Tags,
   QrCode,
   Search,
-  MessageCircle,
-  StickyNote,
   Link as LinkIcon,
   Bell,
   Calendar,
-  History,
-  TrendingUp,
-  MapPin,
-  Map,
   BarChart3,
   Apple,
   Play,
-  ChevronRight
+  ChevronRight,
+  ContactRound,
+  Globe,
+  ShieldCheck,
+  Users,
+  MapPin,
+  Sparkles,
+  History
 } from 'lucide-react';
 
 const features = [
   {
     icon: <Tags className="w-6 h-6 text-yellow-600" />,
-    title: '標籤式人脈管理',
-    description: '為每位人脈加上多個自訂標籤（如 #工程師、#台大校友），快速分類與辨識，取代傳統通訊錄。',
+    title: '六大語意標籤系統',
+    description: '支援身份、技能、興趣、社交、元標籤、關係六種語意分類，為人脈加上精準標籤。可拖曳排序、隱藏私人標籤。',
   },
   {
     icon: <QrCode className="w-6 h-6 text-yellow-600" />,
-    title: '個人檔案 & QR Code',
-    description: '每位用戶擁有個人名片頁，包含頭像、簡介、標籤展示，支援 QR Code 掃碼交換名片。',
+    title: 'Link Bio & QR Code',
+    description: '打造你的個人 Link Bio 頁面，展示頭像、簡介與標籤。支援標準 URL QR Code，掃碼即可加好友。',
   },
   {
     icon: <Search className="w-6 h-6 text-yellow-600" />,
     title: '搜尋與探索',
-    description: '五大分類搜尋：熱門標籤、附近會員、認證會員、附近熱標、最近搜尋，支援關鍵字搜尋標籤或帳號。',
-  },
-  {
-    icon: <MessageCircle className="w-6 h-6 text-yellow-600" />,
-    title: '即時聊天',
-    description: '一對一即時訊息，直接在 App 內與人脈溝通，不需切換到其他通訊軟體。',
-  },
-  {
-    icon: <StickyNote className="w-6 h-6 text-yellow-600" />,
-    title: '便利貼筆記',
-    description: '為每位好友貼上備忘便利貼（如「記得明天約咖啡」），支援釘選、編輯、刪除。',
+    description: '透過關鍵字搜尋標籤或帳號，探索擁有相同標籤的人脈，發現你的專業社群與興趣圈。',
   },
   {
     icon: <LinkIcon className="w-6 h-6 text-yellow-600" />,
-    title: '社群連結 (Biolinks)',
-    description: '在好友檔案中記錄 IG、LinkedIn 等社群連結，一鍵開啟對方的社群頁面。',
+    title: '社群連結 & 隱私分級',
+    description: '記錄 IG、LinkedIn 等社群連結，並設定四級隱私（公開／好友／摯友／僅自己），精準控制誰能看到。',
+  },
+  {
+    icon: <ContactRound className="w-6 h-6 text-yellow-600" />,
+    title: '通訊錄同步',
+    description: '一鍵匯入手機通訊錄，快速找到已在使用 PikTag 的朋友，輕鬆建立你的人脈網絡。',
+  },
+  {
+    icon: <Globe className="w-6 h-6 text-yellow-600" />,
+    title: '15 國語言支援',
+    description: '內建 15 種語言的國際化介面，無論你在哪裡，都能用熟悉的語言管理人脈。',
   },
 ];
 
 const crmFeatures = [
   {
-    icon: <Bell className="w-5 h-5 text-yellow-600" />,
-    title: 'Biolink 點擊追蹤通知',
-    description: '當有人點擊你的社群連結時，自動收到通知，追蹤人脈互動熱度。',
-  },
-  {
     icon: <Calendar className="w-5 h-5 text-yellow-600" />,
-    title: '重要日期提醒',
-    description: '為好友設定生日、紀念日、合約到期，到期當天自動推送提醒，不再遺漏。',
+    title: '生日 CRM 提醒',
+    description: '為好友設定生日等重要日期，到期當天自動推送通知提醒，不再遺漏每一個重要時刻。',
   },
   {
-    icon: <History className="w-5 h-5 text-yellow-600" />,
-    title: '歷史上的今天',
-    description: '自動回顧「N 年前的今天你認識了誰」，喚起人脈記憶，強化社交連結感。',
+    icon: <Users className="w-5 h-5 text-yellow-600" />,
+    title: '好友互動管理',
+    description: '查看好友詳細檔案與標籤，支援封鎖／解封管理，掌控你的社交圈邊界。',
   },
   {
-    icon: <TrendingUp className="w-5 h-5 text-yellow-600" />,
-    title: '標籤熱度通知',
-    description: '當某個標籤的使用人數快速上升時，自動通知（如「#工程師 熱度上升中！」）。',
+    icon: <BarChart3 className="w-5 h-5 text-yellow-600" />,
+    title: '社交統計報表',
+    description: '個人社交數據儀表板：總人脈數、使用標籤數、最常用標籤 Top 5，量化你的社交影響力。',
+  },
+  {
+    icon: <Bell className="w-5 h-5 text-yellow-600" />,
+    title: '智慧通知中心',
+    description: '統一管理所有通知：好友邀請、生日提醒、標籤動態，重要消息一目瞭然。',
   },
 ];
 
@@ -85,18 +86,18 @@ const popularTags = [
 const advancedFeatures = [
   {
     icon: <MapPin className="w-8 h-8 text-yellow-500 mb-4" />,
-    title: '附近熱門標籤推薦',
-    description: '根據 GPS 定位，顯示你所在區域最多人使用的標籤，發現在地社交趨勢。',
+    title: '附近用戶探索',
+    description: '根據 GPS 定位，探索你周圍的 PikTag 用戶與熱門標籤，發現在地社交趨勢與潛在人脈。',
   },
   {
-    icon: <Map className="w-8 h-8 text-yellow-500 mb-4" />,
-    title: '在這地點你認識誰',
-    description: '根據目前位置，列出過去在此地認識的所有人脈，適合出差或參加活動時快速回顧。',
+    icon: <History className="w-8 h-8 text-yellow-500 mb-4" />,
+    title: '歷史上的今天',
+    description: '自動回顧「N 年前的今天你認識了誰」，喚起人脈記憶，讓每段關係歷久彌新。',
   },
   {
-    icon: <BarChart3 className="w-8 h-8 text-yellow-500 mb-4" />,
-    title: '社交統計報表',
-    description: '個人社交數據儀表板：總人脈數、使用標籤數、連結點擊數、最常用標籤 Top 5、人脈時間軸。',
+    icon: <Sparkles className="w-8 h-8 text-yellow-500 mb-4" />,
+    title: '智慧推薦演算法',
+    description: '根據你的標籤、互動紀錄與人脈圈，智慧推薦你可能想認識的人，拓展社交版圖。',
   },
 ];
 
@@ -115,7 +116,7 @@ export default function App() {
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-neutral-600">
             <a href="#features" className="hover:text-neutral-900 transition-colors">核心功能</a>
             <a href="#crm" className="hover:text-neutral-900 transition-colors">智慧 CRM</a>
-            <a href="#advanced" className="hover:text-neutral-900 transition-colors">進階探索</a>
+            <a href="#advanced" className="hover:text-neutral-900 transition-colors">即將推出</a>
           </div>
           <button className="bg-neutral-900 text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-neutral-800 transition-colors">
             即將推出
@@ -146,7 +147,7 @@ export default function App() {
               </span>
             </h1>
             <p className="text-lg text-neutral-600 mb-8 leading-relaxed">
-              告別傳統通訊錄。Pikt.ag 透過自訂標籤、智慧提醒與即時互動，幫助你輕鬆分類、探索並維繫每一段珍貴的社交關係。
+              告別傳統通訊錄。Pikt.ag 透過六大語意標籤、QR Code 名片交換與智慧 CRM 提醒，幫助你精準分類、探索並維繫每一段珍貴的社交關係。支援 15 國語言。
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="flex items-center justify-center gap-2 bg-neutral-900 text-white px-8 py-4 rounded-2xl font-medium hover:bg-neutral-800 transition-all hover:scale-[1.02] active:scale-[0.98]">
@@ -215,7 +216,7 @@ export default function App() {
           <div className="text-center max-w-2xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">基礎功能，強大無比</h2>
             <p className="text-neutral-600 text-lg">
-              取代傳統通訊錄，Pikt.ag 提供全方位的人脈管理工具，讓建立與維繫關係變得簡單直覺。
+              取代傳統通訊錄，Pikt.ag 以語意標籤為核心，結合 Link Bio、QR Code 與隱私分級，讓人脈管理變得精準又直覺。
             </p>
           </div>
           
@@ -337,7 +338,7 @@ export default function App() {
                 智慧 CRM 與黏性功能
               </h2>
               <p className="text-neutral-400 text-lg mb-10 leading-relaxed">
-                不只是儲存聯絡人，Pikt.ag 主動幫你維繫關係。透過智慧追蹤與貼心提醒，讓你在對的時間，與對的人產生連結。
+                不只是儲存聯絡人，Pikt.ag 主動幫你維繫關係。透過生日提醒、社交統計與智慧通知，讓你在對的時間，與對的人產生連結。
               </p>
               
               <div className="space-y-6">
@@ -370,8 +371,8 @@ export default function App() {
                   <h3 className="text-xl font-bold">通知中心</h3>
                   <div className="flex gap-2">
                     <span className="px-3 py-1 bg-yellow-400 text-black rounded-full text-xs font-bold">全部</span>
-                    <span className="px-3 py-1 bg-white/10 rounded-full text-xs font-medium">追蹤</span>
-                    <span className="px-3 py-1 bg-white/10 rounded-full text-xs font-medium">標籤</span>
+                    <span className="px-3 py-1 bg-white/10 rounded-full text-xs font-medium">好友</span>
+                    <span className="px-3 py-1 bg-white/10 rounded-full text-xs font-medium">提醒</span>
                   </div>
                 </div>
                 
@@ -379,22 +380,22 @@ export default function App() {
                   <div className="bg-white/5 p-4 rounded-2xl flex gap-4 items-start">
                     <div className="w-2 h-2 mt-2 rounded-full bg-yellow-400 shrink-0"></div>
                     <div>
-                      <p className="text-sm font-medium mb-1">小花點擊了你的 Instagram 連結</p>
-                      <p className="text-xs text-neutral-500">剛剛 • Biolink 追蹤</p>
+                      <p className="text-sm font-medium mb-1">今天是 #台大校友 王大明的生日！</p>
+                      <p className="text-xs text-neutral-500">剛剛 • 生日 CRM 提醒</p>
                     </div>
                   </div>
                   <div className="bg-white/5 p-4 rounded-2xl flex gap-4 items-start">
                     <div className="w-2 h-2 mt-2 rounded-full bg-yellow-400 shrink-0"></div>
                     <div>
-                      <p className="text-sm font-medium mb-1">今天是 #台大校友 王大明的生日！</p>
-                      <p className="text-xs text-neutral-500">2 小時前 • CRM 提醒</p>
+                      <p className="text-sm font-medium mb-1">小花已接受你的好友邀請！</p>
+                      <p className="text-xs text-neutral-500">2 小時前 • 好友動態</p>
                     </div>
                   </div>
                   <div className="bg-white/5 p-4 rounded-2xl flex gap-4 items-start opacity-70">
                     <div className="w-2 h-2 mt-2 rounded-full bg-transparent shrink-0"></div>
                     <div>
-                      <p className="text-sm font-medium mb-1">#工程師 標籤熱度上升中！已有 88 人使用</p>
-                      <p className="text-xs text-neutral-500">昨天 • 標籤動態</p>
+                      <p className="text-sm font-medium mb-1">你的人脈網絡已成長至 150 人！</p>
+                      <p className="text-xs text-neutral-500">昨天 • 社交統計</p>
                     </div>
                   </div>
                 </div>
@@ -411,9 +412,9 @@ export default function App() {
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-yellow-200 text-yellow-800 text-sm font-medium mb-4">
               Phase 3
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">進階探索與數據分析</h2>
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">即將推出</h2>
             <p className="text-neutral-600 text-lg">
-              結合地理位置與數據統計，為你發掘潛在人脈，並量化你的社交影響力。
+              結合地理位置與智慧推薦，為你發掘潛在人脈，讓社交網絡持續成長。
             </p>
           </div>
 
