@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import {
   Tags,
@@ -108,9 +109,7 @@ export default function App() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-neutral-200/50">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-yellow-400 rounded-lg flex items-center justify-center font-bold text-lg">
-              P
-            </div>
+            <img src="/logo.jpg" alt="PikTag Logo" className="w-8 h-8 rounded-lg" />
             <span className="font-bold text-xl tracking-tight">Pikt.ag</span>
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-neutral-600">
@@ -471,18 +470,16 @@ export default function App() {
       <footer className="bg-neutral-50 py-12 border-t border-neutral-200">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
-            <div className="w-6 h-6 bg-yellow-400 rounded-md flex items-center justify-center font-bold text-sm">
-              P
-            </div>
+            <img src="/logo.jpg" alt="PikTag Logo" className="w-6 h-6 rounded-md" />
             <span className="font-bold text-lg tracking-tight">Pikt.ag</span>
           </div>
           <div className="text-sm text-neutral-500">
             &copy; {new Date().getFullYear()} Pikt.ag. All rights reserved.
           </div>
           <div className="flex gap-6 text-sm font-medium text-neutral-600">
-            <a href="#" className="hover:text-neutral-900 transition-colors">隱私權政策</a>
-            <a href="#" className="hover:text-neutral-900 transition-colors">服務條款</a>
-            <a href="#" className="hover:text-neutral-900 transition-colors">聯絡我們</a>
+            <Link to="/privacy" className="hover:text-neutral-900 transition-colors">隱私權政策</Link>
+            <Link to="/terms" className="hover:text-neutral-900 transition-colors">服務條款</Link>
+            <Link to="/contact" className="hover:text-neutral-900 transition-colors">聯絡我們</Link>
           </div>
         </div>
       </footer>
