@@ -7,7 +7,7 @@ export default function Terms() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-neutral-200/50">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <img src="/logo.jpg" alt="PikTag Logo" className="w-8 h-8 rounded-lg" />
+            <img src="/logo.png" alt="PikTag Logo" className="w-8 h-8 rounded-lg" />
             <span className="font-bold text-xl tracking-tight">Pikt.ag</span>
           </Link>
         </div>
@@ -163,7 +163,7 @@ export default function Terms() {
       <footer className="bg-neutral-50 py-12 border-t border-neutral-200">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
           <Link to="/" className="flex items-center gap-2">
-            <img src="/logo.jpg" alt="PikTag Logo" className="w-6 h-6 rounded-md" />
+            <img src="/logo.png" alt="PikTag Logo" className="w-6 h-6 rounded-md" />
             <span className="font-bold text-lg tracking-tight">Pikt.ag</span>
           </Link>
           <div className="text-sm text-neutral-500">

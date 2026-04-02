@@ -57,7 +57,7 @@ export default function Contact() {
       <header className="border-b border-neutral-200 bg-white">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center gap-3">
           <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-            <img src="/logo.jpg" alt="Pikt.ag logo" className="h-8 w-8 rounded" />
+            <img src="/logo.png" alt="Pikt.ag logo" className="h-8 w-8 rounded" />
             <span className="text-xl font-bold text-neutral-900">Pikt.ag</span>
           </Link>
         </div>
