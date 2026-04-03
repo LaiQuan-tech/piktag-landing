@@ -1,272 +1,272 @@
 {
   "nav": {
-    "features": "Features",
-    "crm": "Smart CRM",
-    "upcoming": "Coming Soon",
-    "comingSoon": "Coming Soon"
+    "features": "Fonctionnalités",
+    "crm": "CRM Intelligent",
+    "upcoming": "Bientôt disponible",
+    "comingSoon": "Bientôt disponible"
   },
   "hero": {
-    "badge": "iOS & Android Coming Soon",
-    "title1": "Redefine How You",
-    "title2": "Manage Connections",
-    "description": "Say goodbye to traditional contact lists. PikTag helps you precisely categorize, explore, and maintain every valuable social connection through six semantic tag types, QR Code business card exchange, and smart CRM reminders. Supports 15 languages.",
+    "badge": "iOS & Android – Bientôt disponible",
+    "title1": "Redéfinissez la façon dont vous",
+    "title2": "Gérez vos contacts",
+    "description": "Dites adieu aux listes de contacts traditionnelles. PikTag vous aide à catégoriser, explorer et entretenir chaque relation sociale précieuse grâce à six types de tags sémantiques, l'échange de cartes de visite par QR Code et des rappels CRM intelligents. Disponible en 15 langues.",
     "appStore": "App Store",
     "googlePlay": "Google Play",
-    "comingSoonOn": "Coming Soon on"
+    "comingSoonOn": "Bientôt disponible sur"
   },
   "features": {
-    "sectionTitle": "Core Features, Incredibly Powerful",
-    "sectionDesc": "Replacing traditional contact lists, PikTag is built around semantic tags, combined with Link Bio, QR Code, and privacy levels, making contact management precise and intuitive.",
+    "sectionTitle": "Des fonctionnalités essentielles, incroyablement puissantes",
+    "sectionDesc": "En remplacement des listes de contacts traditionnelles, PikTag s'articule autour de tags sémantiques, combinés à un Link Bio, un QR Code et des niveaux de confidentialité, rendant la gestion des contacts précise et intuitive.",
     "tag": {
-      "title": "Six Semantic Tag Types",
-      "description": "Supports six semantic categories: Identity, Skills, Interests, Social, Meta Tags, and Relationships, adding precise labels to your connections. Drag to reorder and hide private tags."
+      "title": "Six types de tags sémantiques",
+      "description": "Prend en charge six catégories sémantiques : Identité, Compétences, Centres d'intérêt, Social, Méta-tags et Relations, pour ajouter des étiquettes précises à vos contacts. Faites glisser pour réorganiser et masquer les tags privés."
     },
     "linkBio": {
       "title": "Link Bio & QR Code",
-      "description": "Create your personal Link Bio page showcasing your avatar, bio, and tags. Supports standard URL QR Code — scan to add friends instantly."
+      "description": "Créez votre page Link Bio personnelle mettant en avant votre avatar, votre biographie et vos tags. Compatible avec les QR Codes URL standards — scannez pour ajouter des amis instantanément."
     },
     "search": {
-      "title": "Search & Explore",
-      "description": "Search tags or accounts by keywords, explore people who share the same tags, and discover your professional communities and interest groups."
+      "title": "Recherche & Exploration",
+      "description": "Recherchez des tags ou des comptes par mots-clés, explorez les personnes partageant les mêmes tags et découvrez vos communautés professionnelles et groupes d'intérêt."
     },
     "biolinks": {
-      "title": "Social Links & Privacy Levels",
-      "description": "Store social links like IG, LinkedIn, and set four privacy levels (Public / Friends / Close Friends / Only Me) to precisely control who can see them."
+      "title": "Liens sociaux & niveaux de confidentialité",
+      "description": "Enregistrez des liens sociaux comme IG, LinkedIn, et définissez quatre niveaux de confidentialité (Public / Amis / Amis proches / Moi uniquement) pour contrôler précisément qui peut les voir."
     },
     "contactSync": {
-      "title": "Contact Sync",
-      "description": "Import your phone contacts with one tap, quickly find friends already using PikTag, and easily build your network."
+      "title": "Synchronisation des contacts",
+      "description": "Importez vos contacts téléphoniques en un seul geste, retrouvez rapidement les amis qui utilisent déjà PikTag et développez facilement votre réseau."
     },
     "languages": {
-      "title": "15 Language Support",
-      "description": "Built-in internationalized interface in 15 languages — manage your connections in a language you're comfortable with, wherever you are."
+      "title": "Prise en charge de 15 langues",
+      "description": "Interface internationalisée intégrée en 15 langues — gérez vos contacts dans la langue de votre choix, où que vous soyez."
     }
   },
   "tags": {
-    "sectionTitle": "Most Active Connection Tags",
-    "sectionDesc": "Join thousands of users to explore and connect with people who share the same tags. Discover your professional communities and interest groups.",
-    "users": "Users",
-    "thisWeek": "This Week",
-    "explore": "Explore Tags",
-    "viewAll": "View All Tags",
-    "engineer": "#Engineer",
+    "sectionTitle": "Tags de connexion les plus actifs",
+    "sectionDesc": "Rejoignez des milliers d'utilisateurs pour explorer et vous connecter avec des personnes partageant les mêmes tags. Découvrez vos communautés professionnelles et groupes d'intérêt.",
+    "users": "Utilisateurs",
+    "thisWeek": "Cette semaine",
+    "explore": "Explorer les tags",
+    "viewAll": "Voir tous les tags",
+    "engineer": "#Ingénieur",
     "designer": "#Designer",
     "entrepreneur": "#Entrepreneur",
-    "investor": "#Investor",
-    "ntuAlumni": "#NTU Alumni"
+    "investor": "#Investisseur",
+    "ntuAlumni": "#Alumni NTU"
   },
   "crm": {
     "badge": "Phase 2",
-    "sectionTitle": "Smart CRM & Engagement Features",
-    "sectionDesc": "More than just storing contacts — PikTag proactively helps you maintain relationships. With birthday reminders, social stats, and smart notifications, you'll connect with the right people at the right time.",
+    "sectionTitle": "CRM intelligent & fonctionnalités d'engagement",
+    "sectionDesc": "Bien plus que stocker des contacts — PikTag vous aide activement à entretenir vos relations. Grâce aux rappels d'anniversaire, aux statistiques sociales et aux notifications intelligentes, vous serez en contact avec les bonnes personnes au bon moment.",
     "birthday": {
-      "title": "Birthday CRM Reminders",
-      "description": "Set important dates like birthdays for your friends, and receive automatic push notifications on the day — never miss an important moment."
+      "title": "Rappels CRM d'anniversaire",
+      "description": "Enregistrez des dates importantes comme les anniversaires de vos amis et recevez des notifications push automatiques le jour J — ne manquez plus aucun moment important."
     },
     "friends": {
-      "title": "Friend Interaction Management",
-      "description": "View detailed friend profiles and tags, with block/unblock management to control the boundaries of your social circle."
+      "title": "Gestion des interactions avec les amis",
+      "description": "Consultez les profils détaillés et les tags de vos amis, avec une gestion du blocage/déblocage pour contrôler les limites de votre cercle social."
     },
     "stats": {
-      "title": "Social Statistics Dashboard",
-      "description": "Personal social data dashboard: total connections, tags used, top 5 most-used tags — quantify your social influence."
+      "title": "Tableau de bord des statistiques sociales",
+      "description": "Tableau de bord de vos données sociales personnelles : total des connexions, tags utilisés, top 5 des tags les plus utilisés — quantifiez votre influence sociale."
     },
     "notifications": {
-      "title": "Smart Notification Center",
-      "description": "Manage all notifications in one place: friend requests, birthday reminders, tag updates — important messages at a glance."
+      "title": "Centre de notifications intelligent",
+      "description": "Gérez toutes vos notifications en un seul endroit : demandes d'amis, rappels d'anniversaire, mises à jour de tags — les messages importants d'un seul coup d'œil."
     },
-    "notificationCenter": "Notification Center",
-    "filterAll": "All",
-    "filterFriends": "Friends",
-    "filterReminders": "Reminders",
-    "notification1": "Today is #NTU Alumni David Wang's birthday!",
-    "notification1Time": "Just now • Birthday CRM Reminder",
-    "notification2": "Xiao Hua has accepted your friend request!",
-    "notification2Time": "2 hours ago • Friend Activity",
-    "notification3": "Your network has grown to 150 people!",
-    "notification3Time": "Yesterday • Social Stats"
+    "notificationCenter": "Centre de notifications",
+    "filterAll": "Tout",
+    "filterFriends": "Amis",
+    "filterReminders": "Rappels",
+    "notification1": "Aujourd'hui c'est l'anniversaire de David Wang, #Alumni NTU !",
+    "notification1Time": "À l'instant • Rappel CRM d'anniversaire",
+    "notification2": "Xiao Hua a accepté votre demande d'ami !",
+    "notification2Time": "Il y a 2 heures • Activité d'un ami",
+    "notification3": "Votre réseau compte désormais 150 personnes !",
+    "notification3Time": "Hier • Statistiques sociales"
   },
   "advanced": {
     "badge": "Phase 3",
-    "sectionTitle": "Coming Soon",
-    "sectionDesc": "Combining geolocation and smart recommendations to help you discover potential connections and keep your social network growing.",
+    "sectionTitle": "Bientôt disponible",
+    "sectionDesc": "En combinant la géolocalisation et les recommandations intelligentes pour vous aider à découvrir des contacts potentiels et à faire croître votre réseau social.",
     "nearby": {
-      "title": "Nearby User Discovery",
-      "description": "Explore PikTag users and trending tags around you based on GPS location — discover local social trends and potential connections."
+      "title": "Découverte d'utilisateurs à proximité",
+      "description": "Explorez les utilisateurs PikTag et les tags tendance autour de vous grâce à la localisation GPS — découvrez les tendances sociales locales et les connexions potentielles."
     },
     "onThisDay": {
-      "title": "On This Day",
-      "description": "Automatically look back at who you met on this day N years ago — rekindle connection memories and keep every relationship fresh."
+      "title": "En ce jour",
+      "description": "Remémorez-vous automatiquement les personnes que vous avez rencontrées ce jour-là il y a N ans — ravivez les souvenirs de vos rencontres et entretenez chaque relation."
     },
     "recommend": {
-      "title": "Smart Recommendation Algorithm",
-      "description": "Based on your tags, interaction history, and network, intelligently recommend people you might want to know — expand your social horizons."
+      "title": "Algorithme de recommandation intelligent",
+      "description": "En s'appuyant sur vos tags, votre historique d'interactions et votre réseau, il vous recommande intelligemment des personnes que vous pourriez avoir envie de connaître — élargissez vos horizons sociaux."
     }
   },
   "cta": {
-    "title": "Ready to Level Up Your Network?",
-    "description": "PikTag is coming soon to iOS and Android."
+    "title": "Prêt à booster votre réseau ?",
+    "description": "PikTag arrive bientôt sur iOS et Android."
   },
   "footer": {
-    "rights": "All rights reserved.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "contact": "Contact Us"
+    "rights": "Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "contact": "Nous contacter"
   },
   "app": {
-    "search": "Search"
+    "search": "Rechercher"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: April 2, 2026",
-    "intro": "Welcome to PikTag. We take your privacy very seriously. This Privacy Policy explains how we collect, use, store, and protect your personal data when you use the PikTag mobile application and related services. By using this service, you agree to the data processing practices described in this policy.",
-    "section1Title": "1. Data Collection",
-    "section1Intro": "To provide and improve our services, we may collect the following types of data:",
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : 2 avril 2026",
+    "intro": "Bienvenue sur PikTag. Nous prenons votre vie privée très au sérieux. Cette politique de confidentialité explique comment nous collectons, utilisons, stockons et protégeons vos données personnelles lorsque vous utilisez l'application mobile PikTag et les services associés. En utilisant ce service, vous acceptez les pratiques de traitement des données décrites dans cette politique.",
+    "section1Title": "1. Collecte des données",
+    "section1Intro": "Pour fournir et améliorer nos services, nous pouvons collecter les types de données suivants :",
     "section1Items": [
-      "Personal Data: Information you provide when registering or editing your profile, including name, email address, profile photo, personal bio, etc.",
-      "Semantic Tags: The six types of semantic tags you create or use (Identity, Skills, Interests, Social, Meta Tags, Relationships), including tag names, categories, and sorting preferences.",
-      "Social Links: Social media account links you enter (such as Instagram, LinkedIn, Facebook, etc.), and the privacy levels you set (Public, Friends, Close Friends, Only Me).",
-      "Contact Data: When you choose to sync your contacts, we access your phone contacts to match registered PikTag users. We do not store contact information of unregistered users.",
-      "Location Data: When you use the 'Nearby User Discovery' feature, we collect your GPS location data. This data is only collected when you actively enable this feature, and you can turn it off at any time.",
-      "Usage Data: Including app usage frequency, feature interaction records, search queries, and device information (device model, OS version, language settings, etc.)."
+      "Données personnelles : Informations que vous fournissez lors de l'inscription ou de la modification de votre profil, notamment le nom, l'adresse e-mail, la photo de profil, la biographie personnelle, etc.",
+      "Tags sémantiques : Les six types de tags sémantiques que vous créez ou utilisez (Identité, Compétences, Centres d'intérêt, Social, Méta-tags, Relations), y compris les noms de tags, les catégories et les préférences de tri.",
+      "Liens sociaux : Les liens de comptes de réseaux sociaux que vous saisissez (tels qu'Instagram, LinkedIn, Facebook, etc.) et les niveaux de confidentialité que vous définissez (Public, Amis, Amis proches, Moi uniquement).",
+      "Données de contacts : Lorsque vous choisissez de synchroniser vos contacts, nous accédons à vos contacts téléphoniques pour identifier les utilisateurs PikTag enregistrés. Nous ne stockons pas les informations de contact des utilisateurs non enregistrés.",
+      "Données de localisation : Lorsque vous utilisez la fonctionnalité « Découverte d'utilisateurs à proximité », nous collectons vos données de localisation GPS. Ces données ne sont collectées que lorsque vous activez activement cette fonctionnalité, et vous pouvez la désactiver à tout moment.",
+      "Données d'utilisation : Incluant la fréquence d'utilisation de l'application, les enregistrements d'interaction avec les fonctionnalités, les requêtes de recherche et les informations sur l'appareil (modèle d'appareil, version du système d'exploitation, paramètres de langue, etc.)."
     ],
-    "section2Title": "2. How We Use Your Data",
-    "section2Intro": "The data we collect is used for the following purposes:",
+    "section2Title": "2. Comment nous utilisons vos données",
+    "section2Intro": "Les données que nous collectons sont utilisées aux fins suivantes :",
     "section2Items": [
-      "To provide, maintain, and improve PikTag's core features and service experience.",
-      "To create and display your Link Bio personal page and QR Code business card.",
-      "To perform tag searches, user discovery, and smart recommendation algorithms.",
-      "To send Birthday CRM reminders, friend request notifications, and other relevant push notifications.",
-      "To generate social statistics reports (total connections, tag usage statistics, etc.).",
-      "To detect, prevent, and address security issues, fraud, or technical problems.",
-      "To comply with applicable laws and regulations."
+      "Fournir, maintenir et améliorer les fonctionnalités principales et l'expérience de service de PikTag.",
+      "Créer et afficher votre page personnelle Link Bio et votre carte de visite QR Code.",
+      "Effectuer des recherches de tags, des découvertes d'utilisateurs et des algorithmes de recommandation intelligents.",
+      "Envoyer des rappels CRM d'anniversaire, des notifications de demandes d'amis et d'autres notifications push pertinentes.",
+      "Générer des rapports de statistiques sociales (total des connexions, statistiques d'utilisation des tags, etc.).",
+      "Détecter, prévenir et résoudre les problèmes de sécurité, les fraudes ou les problèmes techniques.",
+      "Se conformer aux lois et réglementations applicables."
     ],
-    "section3Title": "3. Data Storage & Security",
-    "section3Intro": "Your data is stored on cloud infrastructure provided by Supabase, which employs industry-standard security measures, including:",
+    "section3Title": "3. Stockage et sécurité des données",
+    "section3Intro": "Vos données sont stockées sur l'infrastructure cloud fournie par Supabase, qui emploie des mesures de sécurité conformes aux normes du secteur, notamment :",
     "section3Items": [
-      "Transport Layer Security (TLS) encryption for all data transmission.",
-      "Database-level encryption at rest.",
-      "Row Level Security (RLS) ensuring users can only access their own data.",
-      "Regular security audits and vulnerability patching."
+      "Chiffrement Transport Layer Security (TLS) pour toutes les transmissions de données.",
+      "Chiffrement au repos au niveau de la base de données.",
+      "Sécurité au niveau des lignes (RLS) garantissant que les utilisateurs n'ont accès qu'à leurs propres données.",
+      "Audits de sécurité réguliers et application des correctifs de vulnérabilité."
     ],
-    "section3Note": "Although we take reasonable security measures, no method of internet transmission or electronic storage can guarantee 100% security. We will continue to strive to protect your personal data.",
-    "section4Title": "4. Third-Party Services",
-    "section4Intro": "PikTag integrates the following third-party services, each with their own privacy policies:",
-    "section4Apple": "Apple Sign-In: Used for account login and authentication on iOS devices. Apple may provide your name and email address (or Apple private relay address). For details, please refer to the",
-    "section4AppleLink": "Apple Privacy Policy",
-    "section4Google": "Google Sign-In: Used for account login and authentication on Android devices and web. Google may provide your name, email address, and profile photo. For details, please refer to the",
-    "section4GoogleLink": "Google Privacy Policy",
-    "section4Supabase": "Supabase: Used for database, authentication, and file storage services. For details, please refer to the",
-    "section4SupabaseLink": "Supabase Privacy Policy",
-    "section5Title": "5. Cookies & Tracking",
-    "section5Intro": "As a mobile application, PikTag does not directly use browser cookies. However, we may use the following technologies to improve our services:",
+    "section3Note": "Bien que nous prenions des mesures de sécurité raisonnables, aucune méthode de transmission sur Internet ou de stockage électronique ne peut garantir une sécurité à 100 %. Nous continuerons à nous efforcer de protéger vos données personnelles.",
+    "section4Title": "4. Services tiers",
+    "section4Intro": "PikTag intègre les services tiers suivants, chacun disposant de sa propre politique de confidentialité :",
+    "section4Apple": "Connexion Apple : Utilisée pour la connexion et l'authentification des comptes sur les appareils iOS. Apple peut fournir votre nom et votre adresse e-mail (ou l'adresse de relais privée Apple). Pour plus de détails, veuillez consulter la",
+    "section4AppleLink": "Politique de confidentialité d'Apple",
+    "section4Google": "Connexion Google : Utilisée pour la connexion et l'authentification des comptes sur les appareils Android et le web. Google peut fournir votre nom, votre adresse e-mail et votre photo de profil. Pour plus de détails, veuillez consulter la",
+    "section4GoogleLink": "Politique de confidentialité de Google",
+    "section4Supabase": "Supabase : Utilisé pour les services de base de données, d'authentification et de stockage de fichiers. Pour plus de détails, veuillez consulter la",
+    "section4SupabaseLink": "Politique de confidentialité de Supabase",
+    "section5Title": "5. Cookies et suivi",
+    "section5Intro": "En tant qu'application mobile, PikTag n'utilise pas directement les cookies de navigateur. Cependant, nous pouvons utiliser les technologies suivantes pour améliorer nos services :",
     "section5Items": [
-      "Device identifiers for push notification services.",
-      "Analytics tools to collect anonymous usage data to improve the product experience.",
-      "Local Storage for caching app settings and preferences."
+      "Identifiants d'appareil pour les services de notifications push.",
+      "Outils d'analyse pour collecter des données d'utilisation anonymes afin d'améliorer l'expérience du produit.",
+      "Stockage local pour la mise en cache des paramètres et préférences de l'application."
     ],
-    "section5Note": "You can manage notification permissions and data sharing preferences through your device settings.",
-    "section6Title": "6. User Rights",
-    "section6Intro": "Under applicable data protection laws, you have the following rights:",
+    "section5Note": "Vous pouvez gérer les autorisations de notification et les préférences de partage de données via les paramètres de votre appareil.",
+    "section6Title": "6. Droits des utilisateurs",
+    "section6Intro": "En vertu des lois applicables en matière de protection des données, vous disposez des droits suivants :",
     "section6Items": [
-      "Right of Access: You can view your personal data, tags, social links, and friend list within the app at any time.",
-      "Right of Rectification: You can edit or update your profile, tags, social links, and privacy settings at any time.",
-      "Right of Erasure: You can delete individual tags, social links, or request complete account deletion through 'Account Settings'. Once your account is deleted, all your personal data, tags, friend relationships, and related data will be permanently removed. This action cannot be undone.",
-      "Right to Data Portability: You can request to export a copy of your personal data.",
-      "Right to Withdraw Consent: You can withdraw consent for specific data processing at any time (such as contact access, location data, etc.), though this may affect the use of certain features."
+      "Droit d'accès : Vous pouvez consulter vos données personnelles, tags, liens sociaux et liste d'amis dans l'application à tout moment.",
+      "Droit de rectification : Vous pouvez modifier ou mettre à jour votre profil, vos tags, vos liens sociaux et vos paramètres de confidentialité à tout moment.",
+      "Droit à l'effacement : Vous pouvez supprimer des tags ou des liens sociaux individuels, ou demander la suppression complète de votre compte via « Paramètres du compte ». Une fois votre compte supprimé, toutes vos données personnelles, tags, relations d'amis et données associées seront définitivement effacées. Cette action est irréversible.",
+      "Droit à la portabilité des données : Vous pouvez demander l'exportation d'une copie de vos données personnelles.",
+      "Droit de retirer votre consentement : Vous pouvez retirer votre consentement à tout moment pour certains traitements de données (tels que l'accès aux contacts, les données de localisation, etc.), bien que cela puisse affecter l'utilisation de certaines fonctionnalités."
     ],
-    "section6Note": "To exercise the above rights, please contact us using the contact information below.",
-    "section7Title": "7. Children's Privacy",
-    "section7Content": "PikTag is intended for users aged 13 and above (or the minimum age required by your jurisdiction). We do not knowingly collect personal data from children under 13. If we discover that we have collected data from a child under 13, we will promptly delete that data. If you believe we may hold data belonging to a minor, please contact us immediately.",
-    "section8Title": "8. Privacy Policy Updates",
-    "section8Content": "We may update this Privacy Policy from time to time to reflect service changes or legal requirements. When updates are made, we will notify you of significant changes through in-app notifications or email, and update the 'Last Updated' date at the top of this page. We recommend reviewing this policy periodically to stay informed about how we protect your information.",
-    "section9Title": "9. Contact Us",
-    "section9Intro": "If you have any questions, comments, or requests regarding this Privacy Policy, please contact us through the following:",
-    "contactAppName": "Application Name: PikTag",
-    "contactEmail": "Email: ",
-    "contactWebsite": "Website: "
+    "section6Note": "Pour exercer les droits mentionnés ci-dessus, veuillez nous contacter en utilisant les coordonnées ci-dessous.",
+    "section7Title": "7. Confidentialité des mineurs",
+    "section7Content": "PikTag est destiné aux utilisateurs âgés de 13 ans et plus (ou l'âge minimum requis par votre juridiction). Nous ne collectons pas sciemment de données personnelles auprès d'enfants de moins de 13 ans. Si nous découvrons que nous avons collecté des données d'un enfant de moins de 13 ans, nous supprimerons rapidement ces données. Si vous pensez que nous pourrions détenir des données appartenant à un mineur, veuillez nous contacter immédiatement.",
+    "section8Title": "8. Mises à jour de la politique de confidentialité",
+    "section8Content": "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre pour refléter les changements de service ou les exigences légales. En cas de mise à jour, nous vous informerons des modifications importantes via des notifications dans l'application ou par e-mail, et nous mettrons à jour la date de « Dernière mise à jour » en haut de cette page. Nous vous recommandons de consulter régulièrement cette politique pour rester informé de la manière dont nous protégeons vos informations.",
+    "section9Title": "9. Nous contacter",
+    "section9Intro": "Si vous avez des questions, des commentaires ou des demandes concernant cette politique de confidentialité, veuillez nous contacter via :",
+    "contactAppName": "Nom de l'application : PikTag",
+    "contactEmail": "E-mail : ",
+    "contactWebsite": "Site web : "
   },
   "terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last Updated: April 2, 2026",
-    "section1Title": "1. Service Description",
-    "section1Content": "PikTag (hereinafter referred to as 'the Service') is a mobile social CRM application developed and operated by the PikTag team. The Service provides semantic tag management, QR Code business card exchange, Link Bio personal pages, social link management, contact sync, smart CRM reminders, and other features designed to help users effectively manage and maintain their connections.",
-    "section2Title": "2. Account Registration & Security",
+    "title": "Conditions d'utilisation",
+    "lastUpdated": "Dernière mise à jour : 2 avril 2026",
+    "section1Title": "1. Description du service",
+    "section1Content": "PikTag (ci-après dénommé « le Service ») est une application mobile de CRM social développée et exploitée par l'équipe PikTag. Le Service propose la gestion de tags sémantiques, l'échange de cartes de visite par QR Code, des pages personnelles Link Bio, la gestion de liens sociaux, la synchronisation des contacts, des rappels CRM intelligents et d'autres fonctionnalités conçues pour aider les utilisateurs à gérer et entretenir efficacement leurs relations.",
+    "section2Title": "2. Inscription et sécurité du compte",
     "section2Items": [
-      "You must be at least 13 years old (or the minimum age required by your jurisdiction) to use this Service.",
-      "You may register an account through Apple Sign-In or Google Sign-In.",
-      "You are responsible for maintaining the security of your account and must not share it with others.",
-      "If you discover any unauthorized use of your account, please notify us immediately."
+      "Vous devez avoir au moins 13 ans (ou l'âge minimum requis par votre juridiction) pour utiliser ce Service.",
+      "Vous pouvez créer un compte via la connexion Apple ou la connexion Google.",
+      "Vous êtes responsable de la sécurité de votre compte et ne devez pas le partager avec d'autres personnes.",
+      "Si vous constatez une utilisation non autorisée de votre compte, veuillez nous en informer immédiatement."
     ],
-    "section3Title": "3. Usage Guidelines",
-    "section3Intro": "When using this Service, you agree not to engage in the following:",
+    "section3Title": "3. Règles d'utilisation",
+    "section3Intro": "En utilisant ce Service, vous vous engagez à ne pas effectuer les actions suivantes :",
     "section3Items": [
-      "Impersonating others or providing false personal information.",
-      "Harassing, threatening, defaming, or discriminating against other users.",
-      "Distributing spam, advertisements, or unauthorized commercial promotions.",
-      "Using the Service for any illegal or unauthorized activities.",
-      "Attempting to hack, reverse engineer, or interfere with the normal operation of the Service.",
-      "Mass automated scraping or harvesting of other users' personal data."
+      "Usurper l'identité d'autres personnes ou fournir de fausses informations personnelles.",
+      "Harceler, menacer, diffamer ou discriminer d'autres utilisateurs.",
+      "Diffuser des spams, des publicités ou des promotions commerciales non autorisées.",
+      "Utiliser le Service à des fins illégales ou non autorisées.",
+      "Tenter de pirater, de décompiler ou d'interférer avec le fonctionnement normal du Service.",
+      "Collecter ou extraire de manière automatisée et massive les données personnelles d'autres utilisateurs."
     ],
-    "section4Title": "4. Intellectual Property",
+    "section4Title": "4. Propriété intellectuelle",
     "section4Items": [
-      "The design, code, graphics, logos, and other content of the PikTag application are protected by intellectual property laws.",
-      "The 'PikTag' name and related logos are trademarks of the Service and may not be used without authorization.",
-      "Users retain ownership of all personal content they upload to the platform (such as tags, bios, etc.)."
+      "Le design, le code, les graphiques, les logos et autres contenus de l'application PikTag sont protégés par les lois sur la propriété intellectuelle.",
+      "Le nom « PikTag » et les logos associés sont des marques commerciales du Service et ne peuvent être utilisés sans autorisation.",
+      "Les utilisateurs conservent la propriété de tout le contenu personnel qu'ils publient sur la plateforme (tels que les tags, les biographies, etc.)."
     ],
-    "section5Title": "5. User Content",
+    "section5Title": "5. Contenu des utilisateurs",
     "section5Items": [
-      "Content you create on PikTag (including semantic tags, personal bios, social links, etc.) belongs to you.",
-      "You grant PikTag the right to use, display, and process your content to the extent necessary to provide the Service.",
-      "You are responsible for ensuring that your published content does not infringe on third-party rights.",
-      "PikTag reserves the right to remove content that violates these Terms or applicable laws."
+      "Le contenu que vous créez sur PikTag (notamment les tags sémantiques, les biographies personnelles, les liens sociaux, etc.) vous appartient.",
+      "Vous accordez à PikTag le droit d'utiliser, d'afficher et de traiter votre contenu dans la mesure nécessaire à la fourniture du Service.",
+      "Vous êtes responsable de vous assurer que le contenu que vous publiez ne porte pas atteinte aux droits de tiers.",
+      "PikTag se réserve le droit de supprimer tout contenu qui enfreint ces Conditions ou les lois applicables."
     ],
-    "section6Title": "6. Privacy Protection",
-    "section6Content": "Your privacy is very important to us. Please refer to our",
-    "section6Link": "Privacy Policy",
-    "section6Content2": " to learn how we collect, use, and protect your personal data.",
-    "section7Title": "7. Service Interruption & Disclaimer",
+    "section6Title": "6. Protection de la vie privée",
+    "section6Content": "Votre vie privée est très importante pour nous. Veuillez consulter notre",
+    "section6Link": "Politique de confidentialité",
+    "section6Content2": " pour savoir comment nous collectons, utilisons et protégeons vos données personnelles.",
+    "section7Title": "7. Interruption du service et clause de non-responsabilité",
     "section7Items": [
-      "PikTag may temporarily interrupt the Service due to maintenance, updates, or force majeure.",
-      "We do not guarantee that the Service will be uninterrupted or error-free.",
-      "To the maximum extent permitted by law, PikTag shall not be liable for any losses arising from the use of or inability to use the Service."
+      "PikTag peut interrompre temporairement le Service en raison de maintenance, de mises à jour ou de cas de force majeure.",
+      "Nous ne garantissons pas que le Service sera ininterrompu ou exempt d'erreurs.",
+      "Dans toute la mesure permise par la loi, PikTag ne pourra être tenu responsable des pertes découlant de l'utilisation ou de l'impossibilité d'utiliser le Service."
     ],
-    "section8Title": "8. Terms of Service Modifications",
-    "section8Content": "We reserve the right to modify these Terms of Service at any time. Modified terms will be published on this page, and your continued use of the Service constitutes acceptance of the modified terms. For significant changes, we will notify you through in-app notifications or email.",
-    "section9Title": "9. Service Termination",
+    "section8Title": "8. Modifications des conditions d'utilisation",
+    "section8Content": "Nous nous réservons le droit de modifier ces Conditions d'utilisation à tout moment. Les conditions modifiées seront publiées sur cette page, et votre utilisation continue du Service constitue votre acceptation des conditions modifiées. Pour les modifications importantes, nous vous en informerons via des notifications dans l'application ou par e-mail.",
+    "section9Title": "9. Résiliation du service",
     "section9Items": [
-      "You may delete your account at any time through the application settings.",
-      "PikTag reserves the right to suspend or terminate your account for violations of these Terms.",
-      "After account termination, your personal data will be handled in accordance with the Privacy Policy."
+      "Vous pouvez supprimer votre compte à tout moment via les paramètres de l'application.",
+      "PikTag se réserve le droit de suspendre ou de résilier votre compte en cas de violation de ces Conditions.",
+      "Après la résiliation du compte, vos données personnelles seront traitées conformément à la Politique de confidentialité."
     ],
-    "section10Title": "10. Governing Law",
-    "section10Content": "These Terms of Service are governed by the laws of the Republic of China (Taiwan). For any disputes arising from these Terms, both parties agree to submit to the jurisdiction of the Taipei District Court in Taiwan as the court of first instance.",
-    "section11Title": "11. Contact Us",
-    "section11Intro": "If you have any questions about these Terms of Service, please contact us through the following:",
-    "contactEmail": "Email: ",
-    "contactWebsite": "Website: "
+    "section10Title": "10. Droit applicable",
+    "section10Content": "Ces Conditions d'utilisation sont régies par les lois de la République de Chine (Taïwan). Pour tout litige découlant de ces Conditions, les deux parties conviennent de soumettre le différend à la juridiction du Tribunal de district de Taipei à Taïwan en tant que juridiction de première instance.",
+    "section11Title": "11. Nous contacter",
+    "section11Intro": "Si vous avez des questions concernant ces Conditions d'utilisation, veuillez nous contacter via :",
+    "contactEmail": "E-mail : ",
+    "contactWebsite": "Site web : "
   },
   "contact": {
-    "title": "Contact Us",
-    "description": "Thank you for your interest in PikTag! If you have any questions, suggestions, or partnership proposals, feel free to reach out to us through the following channels. We'll get back to you as soon as possible.",
-    "emailTitle": "Email",
+    "title": "Nous contacter",
+    "description": "Merci de votre intérêt pour PikTag ! Si vous avez des questions, des suggestions ou des propositions de partenariat, n'hésitez pas à nous contacter via les canaux suivants. Nous vous répondrons dans les plus brefs délais.",
+    "emailTitle": "E-mail",
     "emailAddress": "support@pikt.ag",
-    "emailDesc": "We will respond to your inquiry within 1-2 business days.",
+    "emailDesc": "Nous répondrons à votre demande dans un délai de 1 à 2 jours ouvrables.",
     "faqTitle": "FAQ",
-    "faq1Question": "What is PikTag?",
-    "faq1Answer": "PikTag is a mobile social CRM application that helps you manage connections through semantic tags, QR Code, and social links. Whether for business networking or everyday socializing, you can easily remember every contact.",
-    "faq2Question": "What types of semantic tags are there?",
-    "faq2Answer": "PikTag supports six semantic tag categories: Identity, Skills, Interests, Social, Meta Tags, and Relationships. Each category helps you recognize and remember people from different dimensions.",
-    "faq3Question": "How do I exchange business cards with QR Code?",
-    "faq3Answer": "Every user has a unique QR Code. Others can scan it to view your Link Bio personal page and send a friend request. Compatible with all standard QR Code scanners.",
-    "faq4Question": "Is PikTag free?",
-    "faq4Answer": "PikTag offers a free basic plan that includes core contact management and tagging features. Advanced features such as bulk import and data analytics are included in paid plans. Please refer to our pricing page for details.",
-    "socialTitle": "Follow Us",
+    "faq1Question": "Qu'est-ce que PikTag ?",
+    "faq1Answer": "PikTag est une application mobile de CRM social qui vous aide à gérer vos relations grâce à des tags sémantiques, un QR Code et des liens sociaux. Que ce soit pour le réseautage professionnel ou les interactions sociales au quotidien, vous pouvez facilement vous souvenir de chaque contact.",
+    "faq2Question": "Quels types de tags sémantiques existe-t-il ?",
+    "faq2Answer": "PikTag prend en charge six catégories de tags sémantiques : Identité, Compétences, Centres d'intérêt, Social, Méta-tags et Relations. Chaque catégorie vous aide à reconnaître et à vous souvenir des personnes sous différents angles.",
+    "faq3Question": "Comment échanger des cartes de visite par QR Code ?",
+    "faq3Answer": "Chaque utilisateur possède un QR Code unique. Les autres peuvent le scanner pour consulter votre page personnelle Link Bio et envoyer une demande d'ami. Compatible avec tous les lecteurs de QR Code standards.",
+    "faq4Question": "PikTag est-il gratuit ?",
+    "faq4Answer": "PikTag propose un forfait de base gratuit incluant les fonctionnalités principales de gestion des contacts et de tags. Les fonctionnalités avancées telles que l'importation en masse et l'analyse des données sont incluses dans les forfaits payants. Veuillez consulter notre page de tarification pour plus de détails.",
+    "socialTitle": "Suivez-nous",
     "socialFacebook": "Facebook",
     "socialInstagram": "Instagram",
-    "socialLine": "LINE Official Account"
+    "socialLine": "Compte officiel LINE"
   },
   "langSwitcher": {
-    "label": "Language"
+    "label": "Langue"
   }
 }
