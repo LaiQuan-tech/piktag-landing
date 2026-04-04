@@ -5,6 +5,7 @@ import App from './App.tsx';
 import PrivacyPolicy from './pages/PrivacyPolicy.tsx';
 import Terms from './pages/Terms.tsx';
 import Contact from './pages/Contact.tsx';
+import './i18n';
 import './index.css';
 
 createRoot(document.getElementById('root')!).render(
