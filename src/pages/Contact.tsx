@@ -66,9 +66,9 @@ export default function Contact() {
           <div className="bg-white rounded-xl border border-neutral-200 p-6 space-y-4">
             <a
               href="mailto:support@pikt.ag"
-              className="flex items-center gap-3 text-neutral-700 hover:text-yellow-600 transition-colors"
+              className="flex items-center gap-3 text-neutral-700 hover:text-brand-700 transition-colors"
             >
-              <Mail className="h-5 w-5 text-yellow-500" />
+              <Mail className="h-5 w-5 text-brand-600" />
               <span>{t('contact.emailAddress')}</span>
             </a>
           </div>
@@ -78,7 +78,7 @@ export default function Contact() {
         <section className="mb-12">
           <h2 className="text-xl font-semibold text-neutral-900 mb-5">
             <span className="flex items-center gap-2">
-              <MessageCircle className="h-5 w-5 text-yellow-500" />
+              <MessageCircle className="h-5 w-5 text-brand-600" />
               {t('contact.faqTitle')}
             </span>
           </h2>
@@ -97,7 +97,7 @@ export default function Contact() {
               href="https://www.facebook.com/pikttag"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-lg border border-neutral-200 bg-white px-4 py-2.5 text-neutral-700 hover:border-yellow-400 hover:text-yellow-600 transition-colors"
+              className="inline-flex items-center gap-2 rounded-lg border border-neutral-200 bg-white px-4 py-2.5 text-neutral-700 hover:border-brand-500 hover:text-brand-700 transition-colors"
             >
               <ExternalLink className="h-4 w-4" />
               {t('contact.socialFacebook')}
@@ -106,7 +106,7 @@ export default function Contact() {
               href="https://www.instagram.com/pikt.ag"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-lg border border-neutral-200 bg-white px-4 py-2.5 text-neutral-700 hover:border-yellow-400 hover:text-yellow-600 transition-colors"
+              className="inline-flex items-center gap-2 rounded-lg border border-neutral-200 bg-white px-4 py-2.5 text-neutral-700 hover:border-brand-500 hover:text-brand-700 transition-colors"
             >
               <ExternalLink className="h-4 w-4" />
               {t('contact.socialInstagram')}
@@ -115,7 +115,7 @@ export default function Contact() {
               href="https://line.me/R/ti/p/@pikttag"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-lg border border-neutral-200 bg-white px-4 py-2.5 text-neutral-700 hover:border-yellow-400 hover:text-yellow-600 transition-colors"
+              className="inline-flex items-center gap-2 rounded-lg border border-neutral-200 bg-white px-4 py-2.5 text-neutral-700 hover:border-brand-500 hover:text-brand-700 transition-colors"
             >
               <ExternalLink className="h-4 w-4" />
               {t('contact.socialLine')}

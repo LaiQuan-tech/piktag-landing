@@ -27,32 +27,32 @@ export default function App() {
 
   const features = [
     {
-      icon: <Tags className="w-6 h-6 text-yellow-600" />,
+      icon: <Tags className="w-6 h-6 text-brand-700" />,
       title: t('features.tag.title'),
       description: t('features.tag.description'),
     },
     {
-      icon: <QrCode className="w-6 h-6 text-yellow-600" />,
+      icon: <QrCode className="w-6 h-6 text-brand-700" />,
       title: t('features.linkBio.title'),
       description: t('features.linkBio.description'),
     },
     {
-      icon: <Search className="w-6 h-6 text-yellow-600" />,
+      icon: <Search className="w-6 h-6 text-brand-700" />,
       title: t('features.search.title'),
       description: t('features.search.description'),
     },
     {
-      icon: <LinkIcon className="w-6 h-6 text-yellow-600" />,
+      icon: <LinkIcon className="w-6 h-6 text-brand-700" />,
       title: t('features.biolinks.title'),
       description: t('features.biolinks.description'),
     },
     {
-      icon: <ContactRound className="w-6 h-6 text-yellow-600" />,
+      icon: <ContactRound className="w-6 h-6 text-brand-700" />,
       title: t('features.contactSync.title'),
       description: t('features.contactSync.description'),
     },
     {
-      icon: <Globe className="w-6 h-6 text-yellow-600" />,
+      icon: <Globe className="w-6 h-6 text-brand-700" />,
       title: t('features.languages.title'),
       description: t('features.languages.description'),
     },
@@ -60,22 +60,22 @@ export default function App() {
 
   const crmFeatures = [
     {
-      icon: <Calendar className="w-5 h-5 text-yellow-600" />,
+      icon: <Calendar className="w-5 h-5 text-brand-700" />,
       title: t('crm.birthday.title'),
       description: t('crm.birthday.description'),
     },
     {
-      icon: <Users className="w-5 h-5 text-yellow-600" />,
+      icon: <Users className="w-5 h-5 text-brand-700" />,
       title: t('crm.friends.title'),
       description: t('crm.friends.description'),
     },
     {
-      icon: <BarChart3 className="w-5 h-5 text-yellow-600" />,
+      icon: <BarChart3 className="w-5 h-5 text-brand-700" />,
       title: t('crm.stats.title'),
       description: t('crm.stats.description'),
     },
     {
-      icon: <Bell className="w-5 h-5 text-yellow-600" />,
+      icon: <Bell className="w-5 h-5 text-brand-700" />,
       title: t('crm.notifications.title'),
       description: t('crm.notifications.description'),
     },
@@ -91,24 +91,24 @@ export default function App() {
 
   const advancedFeatures = [
     {
-      icon: <MapPin className="w-8 h-8 text-yellow-500 mb-4" />,
+      icon: <MapPin className="w-8 h-8 text-brand-600 mb-4" />,
       title: t('advanced.nearby.title'),
       description: t('advanced.nearby.description'),
     },
     {
-      icon: <History className="w-8 h-8 text-yellow-500 mb-4" />,
+      icon: <History className="w-8 h-8 text-brand-600 mb-4" />,
       title: t('advanced.onThisDay.title'),
       description: t('advanced.onThisDay.description'),
     },
     {
-      icon: <Sparkles className="w-8 h-8 text-yellow-500 mb-4" />,
+      icon: <Sparkles className="w-8 h-8 text-brand-600 mb-4" />,
       title: t('advanced.recommend.title'),
       description: t('advanced.recommend.description'),
     },
   ];
 
   return (
-    <div className="min-h-screen bg-neutral-50 font-sans text-neutral-900 selection:bg-yellow-200 selection:text-neutral-900">
+    <div className="min-h-screen bg-neutral-50 font-sans text-neutral-900 selection:bg-brand-200 selection:text-neutral-900">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-neutral-200/50">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
@@ -147,16 +147,16 @@ export default function App() {
             transition={{ duration: 0.6 }}
             className="max-w-2xl"
           >
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-yellow-100 text-yellow-800 text-sm font-medium mb-6">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-100 text-brand-900 text-sm font-medium mb-6">
               <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-yellow-500"></span>
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-500 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-600"></span>
               </span>
               {t('hero.badge')}
             </div>
             <h1 className="text-5xl md:text-6xl font-bold tracking-tight leading-[1.1] mb-6">
               {t('hero.title1')}<br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-yellow-600">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-red to-accent-purple">
                 {t('hero.title2')}
               </span>
             </h1>
@@ -188,10 +188,10 @@ export default function App() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="relative lg:h-[600px] flex items-center justify-center"
           >
-            <div className="absolute inset-0 bg-gradient-to-tr from-yellow-200/40 to-yellow-400/20 rounded-[3rem] transform rotate-3 scale-105 blur-2xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-tr from-brand-200/40 to-brand-500/20 rounded-[3rem] transform rotate-3 scale-105 blur-2xl"></div>
             <div className="relative w-full max-w-sm bg-white rounded-[2.5rem] shadow-2xl border border-neutral-100 overflow-hidden aspect-[9/19] flex flex-col">
               {/* App Header */}
-              <div className="pt-12 pb-4 px-6 bg-yellow-400 text-neutral-900">
+              <div className="pt-12 pb-4 px-6 bg-gradient-to-r from-accent-red to-accent-purple text-white">
                 <div className="flex items-center justify-between mb-6">
                   <div className="font-bold text-xl">PikTag</div>
                   <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
@@ -212,8 +212,8 @@ export default function App() {
                     <div className="flex-1">
                       <div className="h-4 w-24 bg-neutral-200 rounded-full mb-2"></div>
                       <div className="flex gap-1">
-                        <div className="h-3 w-12 bg-yellow-100 rounded-full"></div>
-                        <div className="h-3 w-16 bg-yellow-100 rounded-full"></div>
+                        <div className="h-3 w-12 bg-brand-100 rounded-full"></div>
+                        <div className="h-3 w-16 bg-brand-100 rounded-full"></div>
                       </div>
                     </div>
                   </div>
@@ -244,7 +244,7 @@ export default function App() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-neutral-50 rounded-3xl p-8 border border-neutral-100 hover:shadow-md transition-shadow"
               >
-                <div className="w-12 h-12 bg-yellow-100 rounded-2xl flex items-center justify-center mb-6">
+                <div className="w-12 h-12 bg-brand-100 rounded-2xl flex items-center justify-center mb-6">
                   {feature.icon}
                 </div>
                 <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
@@ -258,7 +258,7 @@ export default function App() {
       </section>
 
       {/* Popular Tags Showcase */}
-      <section className="py-20 bg-gradient-to-b from-yellow-50 via-white to-yellow-50 border-t border-yellow-100">
+      <section className="py-20 bg-gradient-to-b from-brand-50 via-white to-brand-50 border-t border-brand-100">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
@@ -280,17 +280,17 @@ export default function App() {
                 className="group relative"
               >
                 {/* Background glow effect */}
-                <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-yellow-300 rounded-2xl opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-accent-red to-brand-300 rounded-2xl opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur"></div>
 
                 {/* Card */}
-                <div className="relative bg-white border-2 border-yellow-200 rounded-2xl p-6 hover:border-yellow-400 transition-all duration-300 hover:shadow-lg hover:shadow-yellow-200/50 cursor-pointer">
+                <div className="relative bg-white border-2 border-brand-200 rounded-2xl p-6 hover:border-brand-500 transition-all duration-300 hover:shadow-lg hover:shadow-brand-200/50 cursor-pointer">
                   {/* Rank Badge */}
-                  <div className="absolute -top-3 -left-3 w-8 h-8 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg">
+                  <div className="absolute -top-3 -left-3 w-8 h-8 bg-gradient-to-br from-accent-red to-accent-purple rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg">
                     {index + 1}
                   </div>
 
                   {/* Tag Name */}
-                  <h3 className="text-lg font-bold text-neutral-900 mb-3 text-yellow-600 break-all pr-2">
+                  <h3 className="text-lg font-bold text-neutral-900 mb-3 text-brand-700 break-all pr-2">
                     {tag.name}
                   </h3>
 
@@ -308,7 +308,7 @@ export default function App() {
                           whileInView={{ width: `${(tag.count / 88) * 100}%` }}
                           viewport={{ once: true }}
                           transition={{ duration: 0.6, delay: index * 0.08 + 0.2 }}
-                          className="h-full bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-full"
+                          className="h-full bg-gradient-to-r from-accent-red to-accent-purple rounded-full"
                         />
                       </div>
                     </div>
@@ -321,7 +321,7 @@ export default function App() {
                   </div>
 
                   {/* Hover CTA */}
-                  <div className="mt-4 pt-4 border-t border-yellow-100 flex items-center gap-2 text-yellow-600 font-medium text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="mt-4 pt-4 border-t border-brand-100 flex items-center gap-2 text-brand-700 font-medium text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     {t('tags.explore')}
                     <ChevronRight className="w-4 h-4" />
                   </div>
@@ -345,7 +345,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-yellow-400 text-sm font-medium mb-6">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-brand-400 text-sm font-medium mb-6">
                 {t('crm.badge')}
               </div>
               <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">
@@ -379,12 +379,12 @@ export default function App() {
 
             {/* Notification Center Mockup */}
             <div className="relative">
-              <div className="absolute inset-0 bg-yellow-400/20 blur-3xl rounded-full"></div>
+              <div className="absolute inset-0 bg-brand-500/20 blur-3xl rounded-full"></div>
               <div className="relative bg-[#1A1A1A] border border-white/10 rounded-[2rem] p-6 shadow-2xl">
                 <div className="flex items-center justify-between mb-6">
                   <h3 className="text-xl font-bold">{t('crm.notificationCenter')}</h3>
                   <div className="flex gap-2">
-                    <span className="px-3 py-1 bg-yellow-400 text-black rounded-full text-xs font-bold">{t('crm.filterAll')}</span>
+                    <span className="px-3 py-1 bg-brand-500 text-white rounded-full text-xs font-bold">{t('crm.filterAll')}</span>
                     <span className="px-3 py-1 bg-white/10 rounded-full text-xs font-medium">{t('crm.filterFriends')}</span>
                     <span className="px-3 py-1 bg-white/10 rounded-full text-xs font-medium">{t('crm.filterReminders')}</span>
                   </div>
@@ -392,14 +392,14 @@ export default function App() {
 
                 <div className="space-y-4">
                   <div className="bg-white/5 p-4 rounded-2xl flex gap-4 items-start">
-                    <div className="w-2 h-2 mt-2 rounded-full bg-yellow-400 shrink-0"></div>
+                    <div className="w-2 h-2 mt-2 rounded-full bg-brand-500 shrink-0"></div>
                     <div>
                       <p className="text-sm font-medium mb-1">{t('crm.notification1')}</p>
                       <p className="text-xs text-neutral-500">{t('crm.notification1Time')}</p>
                     </div>
                   </div>
                   <div className="bg-white/5 p-4 rounded-2xl flex gap-4 items-start">
-                    <div className="w-2 h-2 mt-2 rounded-full bg-yellow-400 shrink-0"></div>
+                    <div className="w-2 h-2 mt-2 rounded-full bg-brand-500 shrink-0"></div>
                     <div>
                       <p className="text-sm font-medium mb-1">{t('crm.notification2')}</p>
                       <p className="text-xs text-neutral-500">{t('crm.notification2Time')}</p>
@@ -420,10 +420,10 @@ export default function App() {
       </section>
 
       {/* Phase 3: Advanced Features */}
-      <section id="advanced" className="py-24 bg-yellow-50">
+      <section id="advanced" className="py-24 bg-brand-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-yellow-200 text-yellow-800 text-sm font-medium mb-4">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-200 text-brand-900 text-sm font-medium mb-4">
               {t('advanced.badge')}
             </div>
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">{t('advanced.sectionTitle')}</h2>
@@ -440,7 +440,7 @@ export default function App() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-white rounded-[2rem] p-8 shadow-sm border border-yellow-100"
+                className="bg-white rounded-[2rem] p-8 shadow-sm border border-brand-100"
               >
                 {feature.icon}
                 <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
@@ -470,7 +470,7 @@ export default function App() {
                 <div className="text-sm leading-none">{t('hero.appStore')}</div>
               </div>
             </button>
-            <button className="flex items-center justify-center gap-2 bg-yellow-400 text-neutral-900 px-8 py-4 rounded-2xl font-medium hover:bg-yellow-500 transition-all hover:scale-[1.02] active:scale-[0.98] shadow-sm">
+            <button className="flex items-center justify-center gap-2 bg-gradient-to-r from-accent-red to-accent-purple text-white px-8 py-4 rounded-2xl font-medium hover:opacity-90 transition-all hover:scale-[1.02] active:scale-[0.98] shadow-sm">
               <Play className="w-5 h-5" />
               <div className="text-left">
                 <div className="text-[10px] opacity-70 leading-none mb-1">{t('hero.comingSoonOn')}</div>
