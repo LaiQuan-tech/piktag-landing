@@ -5,7 +5,7 @@ export default function Terms() {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-neutral-50 font-sans text-neutral-900 selection:bg-yellow-200 selection:text-neutral-900">
+    <div className="min-h-screen bg-neutral-50 font-sans text-neutral-900 selection:bg-brand-200 selection:text-neutral-900">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-neutral-200/50">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
@@ -77,7 +77,7 @@ export default function Terms() {
               <h2 className="text-2xl font-bold text-neutral-900 mb-4">{t('terms.section6Title')}</h2>
               <p>
                 {t('terms.section6Content')}
-                <Link to="/privacy" className="text-yellow-600 hover:text-yellow-700 underline underline-offset-2 mx-1">
+                <Link to="/privacy" className="text-brand-700 hover:text-brand-800 underline underline-offset-2 mx-1">
                   {t('terms.section6Link')}
                 </Link>
                 {t('terms.section6Content2')}
@@ -127,8 +127,8 @@ export default function Terms() {
                 {t('terms.section11Intro')}
               </p>
               <ul className="list-disc list-inside space-y-2 mt-3">
-                <li>{t('terms.contactEmail')}<a href="mailto:support@pikt.ag" className="text-yellow-600 hover:text-yellow-700 underline underline-offset-2">support@pikt.ag</a></li>
-                <li>{t('terms.contactWebsite')}<a href="https://pikt.ag" className="text-yellow-600 hover:text-yellow-700 underline underline-offset-2">https://pikt.ag</a></li>
+                <li>{t('terms.contactEmail')}<a href="mailto:support@pikt.ag" className="text-brand-700 hover:text-brand-800 underline underline-offset-2">support@pikt.ag</a></li>
+                <li>{t('terms.contactWebsite')}<a href="https://pikt.ag" className="text-brand-700 hover:text-brand-800 underline underline-offset-2">https://pikt.ag</a></li>
               </ul>
             </section>
           </div>

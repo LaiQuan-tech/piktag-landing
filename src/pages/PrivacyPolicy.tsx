@@ -5,7 +5,7 @@ export default function PrivacyPolicy() {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-neutral-50 font-sans text-neutral-900 selection:bg-yellow-200 selection:text-neutral-900">
+    <div className="min-h-screen bg-neutral-50 font-sans text-neutral-900 selection:bg-brand-200 selection:text-neutral-900">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-neutral-200/50">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
@@ -85,7 +85,7 @@ export default function PrivacyPolicy() {
                     href="https://www.apple.com/legal/privacy/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-yellow-600 underline hover:text-yellow-700"
+                    className="text-brand-700 underline hover:text-brand-800"
                   >
                     {t('privacy.section4AppleLink')}
                   </a>
@@ -97,7 +97,7 @@ export default function PrivacyPolicy() {
                     href="https://policies.google.com/privacy"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-yellow-600 underline hover:text-yellow-700"
+                    className="text-brand-700 underline hover:text-brand-800"
                   >
                     {t('privacy.section4GoogleLink')}
                   </a>
@@ -109,7 +109,7 @@ export default function PrivacyPolicy() {
                     href="https://supabase.com/privacy"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-yellow-600 underline hover:text-yellow-700"
+                    className="text-brand-700 underline hover:text-brand-800"
                   >
                     {t('privacy.section4SupabaseLink')}
                   </a>
@@ -181,7 +181,7 @@ export default function PrivacyPolicy() {
                     {t('privacy.contactEmail')}{' '}
                     <a
                       href="mailto:privacy@pikt.ag"
-                      className="text-yellow-600 underline hover:text-yellow-700"
+                      className="text-brand-700 underline hover:text-brand-800"
                     >
                       privacy@pikt.ag
                     </a>
@@ -192,7 +192,7 @@ export default function PrivacyPolicy() {
                       href="https://pikt.ag"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-yellow-600 underline hover:text-yellow-700"
+                      className="text-brand-700 underline hover:text-brand-800"
                     >
                       https://pikt.ag
                     </a>
