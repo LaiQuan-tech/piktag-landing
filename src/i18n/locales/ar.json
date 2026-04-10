@@ -1,18 +1,18 @@
 {
   "nav": {
-    "features": "Features",
-    "crm": "Smart CRM",
-    "upcoming": "Coming Soon",
-    "comingSoon": "Coming Soon"
+    "features": "الميزات",
+    "crm": "CRM الذكي",
+    "upcoming": "قريباً",
+    "comingSoon": "قريباً"
   },
   "hero": {
-    "badge": "iOS & Android Coming Soon",
-    "title1": "Redefine How You",
-    "title2": "Manage Connections",
-    "description": "Say goodbye to traditional contact lists. PikTag helps you precisely categorize, explore, and maintain every valuable social connection through six semantic tag types, QR Code business card exchange, and smart CRM reminders. Supports 15 languages.",
+    "badge": "iOS و Android قريباً",
+    "title1": "أعد تعريف طريقة",
+    "title2": "إدارة علاقاتك",
+    "description": "قل وداعاً لقوائم جهات الاتصال التقليدية. يساعدك PikTag على تصنيف واستكشاف والحفاظ على كل علاقة اجتماعية قيّمة بدقة من خلال ست فئات من العلامات الدلالية، وتبادل بطاقات الأعمال عبر QR Code، وتذكيرات CRM الذكية. يدعم 15 لغة.",
     "appStore": "App Store",
     "googlePlay": "Google Play",
-    "comingSoonOn": "Coming Soon on"
+    "comingSoonOn": "قريباً على"
   },
   "features": {
     "sectionTitle": "Core Features, Incredibly Powerful",
@@ -49,11 +49,11 @@
     "thisWeek": "This Week",
     "explore": "Explore Tags",
     "viewAll": "View All Tags",
-    "engineer": "#Engineer",
-    "designer": "#Designer",
-    "entrepreneur": "#Entrepreneur",
-    "investor": "#Investor",
-    "ntuAlumni": "#NTU Alumni"
+    "engineer": "#مهندس",
+    "designer": "#مصمم",
+    "entrepreneur": "#رائد أعمال",
+    "investor": "#مستثمر",
+    "ntuAlumni": "#خريج NTU"
   },
   "crm": {
     "badge": "Phase 2",
@@ -104,17 +104,17 @@
     }
   },
   "cta": {
-    "title": "Ready to Level Up Your Network?",
-    "description": "PikTag is coming soon to iOS and Android."
+    "title": "جاهز لترقية شبكتك؟",
+    "description": "PikTag قادم قريباً إلى iOS و Android."
   },
   "footer": {
-    "rights": "All rights reserved.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "contact": "Contact Us"
+    "rights": "جميع الحقوق محفوظة.",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الخدمة",
+    "contact": "اتصل بنا"
   },
   "app": {
-    "search": "Search"
+    "search": "بحث"
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -267,6 +267,6 @@
     "socialLine": "LINE Official Account"
   },
   "langSwitcher": {
-    "label": "Language"
+    "label": "اللغة"
   }
 }

@@ -1,18 +1,18 @@
 {
   "nav": {
-    "features": "Features",
-    "crm": "Smart CRM",
-    "upcoming": "Coming Soon",
-    "comingSoon": "Coming Soon"
+    "features": "Özellikler",
+    "crm": "Akıllı CRM",
+    "upcoming": "Yakında",
+    "comingSoon": "Yakında"
   },
   "hero": {
-    "badge": "iOS & Android Coming Soon",
-    "title1": "Redefine How You",
-    "title2": "Manage Connections",
-    "description": "Say goodbye to traditional contact lists. PikTag helps you precisely categorize, explore, and maintain every valuable social connection through six semantic tag types, QR Code business card exchange, and smart CRM reminders. Supports 15 languages.",
+    "badge": "iOS ve Android Yakında",
+    "title1": "Bağlantılarınızı Yönetme",
+    "title2": "Şeklinizi Yeniden Tanımlayın",
+    "description": "Geleneksel kişi listelerine elveda deyin. PikTag, altı anlamsal etiket türü, QR Code ile kartvizit değişimi ve akıllı CRM hatırlatıcıları aracılığıyla her değerli sosyal bağlantıyı hassas bir şekilde sınıflandırmanıza, keşfetmenize ve sürdürmenize yardımcı olur. 15 dili destekler.",
     "appStore": "App Store",
     "googlePlay": "Google Play",
-    "comingSoonOn": "Coming Soon on"
+    "comingSoonOn": "Yakında"
   },
   "features": {
     "sectionTitle": "Core Features, Incredibly Powerful",
@@ -49,11 +49,11 @@
     "thisWeek": "This Week",
     "explore": "Explore Tags",
     "viewAll": "View All Tags",
-    "engineer": "#Engineer",
-    "designer": "#Designer",
-    "entrepreneur": "#Entrepreneur",
-    "investor": "#Investor",
-    "ntuAlumni": "#NTU Alumni"
+    "engineer": "#Mühendis",
+    "designer": "#Tasarımcı",
+    "entrepreneur": "#Girişimci",
+    "investor": "#Yatırımcı",
+    "ntuAlumni": "#NTU Mezunu"
   },
   "crm": {
     "badge": "Phase 2",
@@ -104,17 +104,17 @@
     }
   },
   "cta": {
-    "title": "Ready to Level Up Your Network?",
-    "description": "PikTag is coming soon to iOS and Android."
+    "title": "Ağınızı Bir Üst Seviyeye Taşımaya Hazır mısınız?",
+    "description": "PikTag yakında iOS ve Android'de."
   },
   "footer": {
-    "rights": "All rights reserved.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "contact": "Contact Us"
+    "rights": "Tüm hakları saklıdır.",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Hizmet Şartları",
+    "contact": "Bize Ulaşın"
   },
   "app": {
-    "search": "Search"
+    "search": "Ara"
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -267,6 +267,6 @@
     "socialLine": "LINE Official Account"
   },
   "langSwitcher": {
-    "label": "Language"
+    "label": "Dil"
   }
 }

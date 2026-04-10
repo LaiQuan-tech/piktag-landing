@@ -1,18 +1,18 @@
 {
   "nav": {
-    "features": "Features",
-    "crm": "Smart CRM",
-    "upcoming": "Coming Soon",
-    "comingSoon": "Coming Soon"
+    "features": "ฟีเจอร์",
+    "crm": "สมาร์ท CRM",
+    "upcoming": "เร็ว ๆ นี้",
+    "comingSoon": "เร็ว ๆ นี้"
   },
   "hero": {
-    "badge": "iOS & Android Coming Soon",
-    "title1": "Redefine How You",
-    "title2": "Manage Connections",
-    "description": "Say goodbye to traditional contact lists. PikTag helps you precisely categorize, explore, and maintain every valuable social connection through six semantic tag types, QR Code business card exchange, and smart CRM reminders. Supports 15 languages.",
+    "badge": "iOS & Android เร็ว ๆ นี้",
+    "title1": "นิยามใหม่ของการ",
+    "title2": "จัดการเครือข่ายของคุณ",
+    "description": "บอกลารายชื่อผู้ติดต่อแบบเดิม ๆ PikTag ช่วยให้คุณจัดหมวดหมู่ สำรวจ และรักษาทุกความสัมพันธ์ทางสังคมที่มีคุณค่าได้อย่างแม่นยำ ผ่านแท็กเชิงความหมาย 6 ประเภท การแลกนามบัตรด้วย QR Code และการแจ้งเตือน CRM อัจฉริยะ รองรับ 15 ภาษา",
     "appStore": "App Store",
     "googlePlay": "Google Play",
-    "comingSoonOn": "Coming Soon on"
+    "comingSoonOn": "เร็ว ๆ นี้บน"
   },
   "features": {
     "sectionTitle": "Core Features, Incredibly Powerful",
@@ -49,11 +49,11 @@
     "thisWeek": "This Week",
     "explore": "Explore Tags",
     "viewAll": "View All Tags",
-    "engineer": "#Engineer",
-    "designer": "#Designer",
-    "entrepreneur": "#Entrepreneur",
-    "investor": "#Investor",
-    "ntuAlumni": "#NTU Alumni"
+    "engineer": "#วิศวกร",
+    "designer": "#นักออกแบบ",
+    "entrepreneur": "#ผู้ประกอบการ",
+    "investor": "#นักลงทุน",
+    "ntuAlumni": "#ศิษย์เก่า NTU"
   },
   "crm": {
     "badge": "Phase 2",
@@ -104,17 +104,17 @@
     }
   },
   "cta": {
-    "title": "Ready to Level Up Your Network?",
-    "description": "PikTag is coming soon to iOS and Android."
+    "title": "พร้อมยกระดับเครือข่ายของคุณแล้วหรือยัง?",
+    "description": "PikTag กำลังจะมาเร็ว ๆ นี้บน iOS และ Android"
   },
   "footer": {
-    "rights": "All rights reserved.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "contact": "Contact Us"
+    "rights": "สงวนลิขสิทธิ์",
+    "privacy": "นโยบายความเป็นส่วนตัว",
+    "terms": "ข้อกำหนดการใช้บริการ",
+    "contact": "ติดต่อเรา"
   },
   "app": {
-    "search": "Search"
+    "search": "ค้นหา"
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -267,6 +267,6 @@
     "socialLine": "LINE Official Account"
   },
   "langSwitcher": {
-    "label": "Language"
+    "label": "ภาษา"
   }
 }
