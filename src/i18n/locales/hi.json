@@ -1,18 +1,18 @@
 {
   "nav": {
-    "features": "Features",
-    "crm": "Smart CRM",
-    "upcoming": "Coming Soon",
-    "comingSoon": "Coming Soon"
+    "features": "विशेषताएँ",
+    "crm": "स्मार्ट CRM",
+    "upcoming": "जल्द आ रहा है",
+    "comingSoon": "जल्द आ रहा है"
   },
   "hero": {
-    "badge": "iOS & Android Coming Soon",
-    "title1": "Redefine How You",
-    "title2": "Manage Connections",
-    "description": "Say goodbye to traditional contact lists. PikTag helps you precisely categorize, explore, and maintain every valuable social connection through six semantic tag types, QR Code business card exchange, and smart CRM reminders. Supports 15 languages.",
+    "badge": "iOS और Android पर जल्द आ रहा है",
+    "title1": "अपने संबंधों के",
+    "title2": "प्रबंधन को फिर से परिभाषित करें",
+    "description": "पारंपरिक संपर्क सूचियों को अलविदा कहें। PikTag छह सिमेंटिक टैग प्रकारों, QR Code बिज़नेस कार्ड एक्सचेंज और स्मार्ट CRM रिमाइंडर्स के माध्यम से आपके हर मूल्यवान सामाजिक संबंध को सटीक रूप से वर्गीकृत करने, खोजने और बनाए रखने में आपकी मदद करता है। 15 भाषाओं का समर्थन करता है।",
     "appStore": "App Store",
     "googlePlay": "Google Play",
-    "comingSoonOn": "Coming Soon on"
+    "comingSoonOn": "जल्द आ रहा है"
   },
   "features": {
     "sectionTitle": "Core Features, Incredibly Powerful",
@@ -49,11 +49,11 @@
     "thisWeek": "This Week",
     "explore": "Explore Tags",
     "viewAll": "View All Tags",
-    "engineer": "#Engineer",
-    "designer": "#Designer",
-    "entrepreneur": "#Entrepreneur",
-    "investor": "#Investor",
-    "ntuAlumni": "#NTU Alumni"
+    "engineer": "#इंजीनियर",
+    "designer": "#डिज़ाइनर",
+    "entrepreneur": "#उद्यमी",
+    "investor": "#निवेशक",
+    "ntuAlumni": "#NTU पूर्व छात्र"
   },
   "crm": {
     "badge": "Phase 2",
@@ -104,17 +104,17 @@
     }
   },
   "cta": {
-    "title": "Ready to Level Up Your Network?",
-    "description": "PikTag is coming soon to iOS and Android."
+    "title": "अपने नेटवर्क को अगले स्तर पर ले जाने के लिए तैयार?",
+    "description": "PikTag जल्द ही iOS और Android पर आ रहा है।"
   },
   "footer": {
-    "rights": "All rights reserved.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "contact": "Contact Us"
+    "rights": "सर्वाधिकार सुरक्षित।",
+    "privacy": "गोपनीयता नीति",
+    "terms": "सेवा की शर्तें",
+    "contact": "संपर्क करें"
   },
   "app": {
-    "search": "Search"
+    "search": "खोजें"
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -267,6 +267,6 @@
     "socialLine": "LINE Official Account"
   },
   "langSwitcher": {
-    "label": "Language"
+    "label": "भाषा"
   }
 }
