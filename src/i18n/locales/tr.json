@@ -7,9 +7,9 @@
   },
   "hero": {
     "badge": "iOS ve Android Yakında",
-    "title1": "Bağlantılarınızı Yönetme",
-    "title2": "Şeklinizi Yeniden Tanımlayın",
-    "description": "Geleneksel kişi listelerine elveda deyin. PikTag, altı anlamsal etiket türü, QR Code ile kartvizit değişimi ve akıllı CRM hatırlatıcıları aracılığıyla her değerli sosyal bağlantıyı hassas bir şekilde sınıflandırmanıza, keşfetmenize ve sürdürmenize yardımcı olur. 15 dili destekler.",
+    "title1": "Başkalarının seni",
+    "title2": "tanımlamasına izin verme.",
+    "description": "Başkalarına etiketlenmeyi bırak, kendini etiketlemeye başla. PikTag'in altı anlamsal etiket türü, nasıl hatırlanmak istediğini tanımlamanı ve önemli olan herkesi hatırlamanı sağlar.",
     "appStore": "App Store",
     "googlePlay": "Google Play",
     "comingSoonOn": "Yakında"
