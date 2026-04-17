@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { languages } from './i18n';
 import { motion } from 'motion/react';
-import { Apple, Play, Search, Globe } from 'lucide-react';
+import { Apple, Play, Globe } from 'lucide-react';
 
 export default function App() {
   const { t, i18n } = useTranslation();
@@ -120,7 +120,7 @@ export default function App() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
-            className="flex flex-col sm:flex-row gap-4 mb-24"
+            className="flex flex-col sm:flex-row gap-4"
           >
             <button className="group flex items-center justify-center gap-2 bg-white text-neutral-900 px-8 py-4 rounded-2xl font-medium hover:bg-white/90 transition-all hover:scale-[1.02] active:scale-[0.98]">
               <Apple className="w-5 h-5" />
@@ -140,60 +140,6 @@ export default function App() {
                 <div className="text-sm leading-none">{t('hero.googlePlay')}</div>
               </div>
             </button>
-          </motion.div>
-
-          {/* Phone Mockup */}
-          <motion.div
-            initial={{ opacity: 0, y: 40, scale: 0.95 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            transition={{ duration: 0.9, delay: 0.4 }}
-            className="relative w-full max-w-[300px]"
-          >
-            {/* Intense glow behind phone */}
-            <div className="absolute -inset-12 bg-gradient-to-tr from-accent-red/40 to-accent-purple/40 rounded-[4rem] blur-3xl -z-10"></div>
-            <div className="absolute -inset-4 bg-gradient-to-tr from-accent-red/20 to-accent-purple/20 rounded-[3rem] blur-2xl -z-10"></div>
-
-            {/* Phone frame */}
-            <div className="relative w-full bg-neutral-900 rounded-[2.5rem] shadow-[0_50px_100px_-20px_rgba(0,0,0,0.8)] border border-white/10 overflow-hidden aspect-[9/19] flex flex-col">
-              {/* App Header */}
-              <div className="pt-12 pb-4 px-5 bg-gradient-to-r from-accent-red to-accent-purple text-white">
-                <div className="flex items-center justify-between mb-5">
-                  <div className="font-bold text-lg">PikTag</div>
-                  <div className="w-7 h-7 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
-                    <Search className="w-4 h-4" />
-                  </div>
-                </div>
-                <div className="flex gap-2 overflow-hidden">
-                  <span className="px-3 py-1 bg-white text-brand-900 rounded-full text-xs font-semibold whitespace-nowrap shadow-sm">
-                    {t('tags.engineer')}
-                  </span>
-                  <span className="px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-xs font-medium whitespace-nowrap">
-                    {t('tags.ntuAlumni')}
-                  </span>
-                  <span className="px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-xs font-medium whitespace-nowrap">
-                    {t('tags.designer')}
-                  </span>
-                </div>
-              </div>
-              {/* App Body */}
-              <div className="flex-1 bg-neutral-50 p-4 flex flex-col gap-3">
-                {[1, 2, 3].map((i) => (
-                  <div
-                    key={i}
-                    className="bg-white p-3 rounded-2xl shadow-sm border border-neutral-100 flex items-center gap-3"
-                  >
-                    <div className="w-10 h-10 bg-neutral-200 rounded-full"></div>
-                    <div className="flex-1">
-                      <div className="h-3 w-20 bg-neutral-200 rounded-full mb-1.5"></div>
-                      <div className="flex gap-1">
-                        <div className="h-2 w-10 bg-brand-100 rounded-full"></div>
-                        <div className="h-2 w-14 bg-brand-100 rounded-full"></div>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
           </motion.div>
         </div>
       </main>
